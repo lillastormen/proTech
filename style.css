@@ -7,8 +7,10 @@
 body {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
-  display: flex;
-  justify-content: center;
+  padding: 0;
+  margin: 0;
+  /* display: flex;
+  justify-content: center; */
 }
 
 header {
@@ -72,8 +74,12 @@ h3 {
 }
 
 p {
-  font-family: "IBM plex serif", sans-serif;
+  font-family: "IBM Plex Sans KR", sans-serif;
+  font-weight: 600;
   line-height: 150%;
+}
+button p {
+  margin: 0;
 }
 
 .koncepttext {
@@ -104,8 +110,10 @@ p {
 
 button {
   background-color: black;
-  padding: 0px 17px 0 17px;
+  padding: 8px 27px 8px 27px;
   color: white;
+  border-radius: 10px;
+  border: none;
 }
 
 .koncepttext span {
