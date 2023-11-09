@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Schoolbell&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  width: 100%;
+  /* background-color: #f5f5f5; */
+  padding: 1.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.burger {
+  width: 40px;
+  height: 34px;
+  border: 1px solid black;
+}
+
+main {
+  width: 428px;
+  background-color: #d9d9d9;
+}
+
+.hero,
+.revolution {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem;
+}
+
+.image {
+  width: 342px;
+  height: 564px;
+  background-color: rgb(171, 171, 171);
+  margin: 0 0 2.5rem 0;
+}
+
+.herospan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 62px;
+  font-weight: 700;
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0;
+}
+
+p {
+  font-family: "IBM plex serif", sans-serif;
+  line-height: 150%;
+}
+
+.koncepttext {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 2.5rem;
+}
+
+.mood {
+  display: flex;
+  /* background-color: lightgreen; */
+  align-items: center;
+}
+
+.moodimage01 {
+  background-color: rgb(171, 171, 171);
+  width: 214px;
+  height: 324px;
+  margin-right: 24px;
+}
+
+.moodimage02 {
+  background-color: rgb(171, 171, 171);
+  width: 166px;
+  height: 200px;
+}
+
+button {
+  background-color: black;
+  padding: 0px 17px 0 17px;
+  color: white;
+}
+
+.koncepttext span {
+  max-width: 162px;
+}
+
+.revolution h2 {
+  text-align: center;
+}
