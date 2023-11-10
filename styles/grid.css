@@ -7,13 +7,11 @@
     grid-template-areas:
       "header"
       "hero"
-      "proTech"
-      "keepCool"
+      "companySlogan"
       "pictures"
       "concept"
-      "animation"
       "revolution"
-      "offer"
+      "offers"
       "newsletter"
       "pictures1"
       "balance"
@@ -49,17 +47,17 @@ header {
     grid-area: hero; 
     background-color: pink;
 }
+  
+.companySlogan { 
+    grid-area: companySlogan;
+    background-color: green;
+}
 
 .proTech {
     grid-area: proTech;
     background-color:rgb(210, 205, 77)
-}
-  
-.keepCool { 
-    grid-area: keepCool;
-    background-color: green;
-}
-  
+} 
+
 .pictures {
     display: grid; 
     grid-area: pictures;
@@ -68,15 +66,7 @@ header {
     grid-template-areas:
       "pic1 pic2"
 }
-.pic1 {
-    grid-area: pic1;
-    background-color: red;
-}
 
-.pic2 {
-    grid-area: pic2;
-    background-color:darkred;
-}
   
 .concept { 
     display: grid;
@@ -88,56 +78,20 @@ header {
       "text"
       "readMore";
 }
-.title {
-    grid-area: title;
-    background-color: greenyellow;
-}
-.text {
-    grid-area: text;
-    background-color: rgb(169, 208, 111);
-}
-.readMore {
-    grid-area: readMore;
-    background-color: rgb(70, 106, 16);
-}
-
-.animation { 
-    grid-area: animation; 
-    background-color: bisque;
-}
 
 .revolution { 
     grid-area: revolution; 
     background-color: azure;
 }
 
-.offer { 
+.offers { 
     display: grid;
-    grid-area: offer; 
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas:
-      "pics"
-      "watch300"
-      "text1"
-      "buyNow";
+    grid-area: offers; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-flow: row;
+    overflow: hidden;
 }
-.pics {
-    grid-area: pics;
-    background-color: gray;
-}
-.watch300 {
-    grid-area: watch300;
-    background-color: lightgray;
-}
-.text1 {
-    grid-area: text1;
-    background-color: rgb(222, 214, 214);
-}
-.buyNow {
-    grid-area: buyNow;
-    background-color: rgb(167, 161, 161);
-}
+
 
 .newsletter {
     display: grid;

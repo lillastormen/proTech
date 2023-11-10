@@ -1,0 +1,30 @@
+.lightFont {
+    color: #d9d9d9;
+}
+
+.offers {
+    padding: 2.5rem;
+    background-color: #4D4B4B;
+    gap: 40px;
+  }
+
+.offer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+
+}
+.offerImage01 {
+    width: 334px;
+    height: 420px;
+    background-color: #d9d9d9;
+    margin: 0 0 2.5rem 0;
+}
+
+button { 
+    width: fit-content; 
+}
+
+
+
+
