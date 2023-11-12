@@ -25,6 +25,20 @@ button {
     width: fit-content; 
 }
 
+h4 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 16px;
+    margin-bottom: 0;
+}
+
+.newsletterText1 {
+    width: 300px;
+    padding-left: 16px;
+
+}
+
+
 
 
 

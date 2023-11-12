@@ -99,22 +99,19 @@ header {
     grid-template-columns: auto;
     grid-template-rows: auto;
     grid-template-areas:
-      "newsletterText"
+      "newsletterTitle1"
       "newsletterText1"
-      "send";
+      "newsletterSend1";
 }
 
-.newsletterText {
-    grid-area: newsletterText;
-    background-color: blueviolet;
+.newsletterTitlet1 {
+    grid-area: newsletterTitlet1;
 }
 .newsletterText1 {
     grid-area: newsletterText1;
-    background-color: rgb(100, 63, 135);
 }
-.send {
-    grid-area: send;
-    background-color: rgb(83, 19, 143);
+.newsletterForm1 {
+    grid-area: newsletterForm1;
 }
 .pictures1 {
     display: grid;
@@ -189,3 +186,7 @@ footer {
     background-color: rgb(242, 156, 106);
 }
 
+/* @media (max-width: ) { - use media queries to to make layout*/ 
+    /* .container {} */
+/* } */
+  
