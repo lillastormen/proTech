@@ -8,7 +8,7 @@
       "header"
       "hero"
       "companySlogan"
-      "pictures"
+      "mood"
       "concept"
       "revolution"
       "offers"
@@ -55,13 +55,9 @@ header {
     background-color:rgb(210, 205, 77)
 } 
 
-.pictures {
-    display: grid; 
-    grid-area: pictures;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas:
-      "pic1 pic2"
+.mood {
+    grid-area: mood;
+   
 }
 
   
@@ -79,6 +75,7 @@ header {
 .revolution { 
     grid-area: revolution; 
     background-color: azure;
+    padding-top: 2.5rem;
 }
 
 .offers { 
