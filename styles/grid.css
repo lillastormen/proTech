@@ -101,7 +101,7 @@ header {
     grid-template-areas:
       "newsletterTitle1"
       "newsletterText1"
-      "newsletterSend1";
+      "newsletterForm1";
 }
 
 .newsletterTitlet1 {
