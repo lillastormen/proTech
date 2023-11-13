@@ -24,8 +24,8 @@
 
 .heart {
     position: absolute;
-    top: 0px;
-    right: 0px;
+    top: 10px;
+    right: 10px;
 }
 
 button { 
@@ -72,6 +72,24 @@ h4 {
 
 footer {
     background-color: #4D4B4B;
+}
+
+.info {
+    padding-top: 40px;
+}
+
+a { 
+    color:#d9d9d9;
+    padding: 5px;
+}
+a:link { 
+    text-decoration: none; 
+}
+a:visited { 
+    text-decoration: none;
+}
+a:active { 
+    text-decoration: none; 
 }
 
 

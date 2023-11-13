@@ -31,15 +31,12 @@ header {
 
 .icon {
     grid-area: icon;
-    background-color: lightblue;
 }
 .PT {
     grid-area: PT;
-    background-color: rgb(137, 192, 210);
 }
 .eng {
     grid-area: eng;
-    background-color: rgb(57, 185, 227);
 }
 
 
@@ -168,11 +165,15 @@ footer {
 
 .info {
     grid-area: info;
-    background-color: rgb(106, 49, 16);;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: #4D4B4B;
+    padding-left: 12px;
 }
 .socials {
     grid-area: socials;
-    background-color: rgb(242, 156, 106);
+    background-color: #4D4B4B;
 }
 
 /* @media (max-width: ) { - use media queries to to make layout*/ 
