@@ -14,11 +14,18 @@
     grid-template-rows: auto;
 
 }
-.offerImage01 {
+.offerImage {
+    position: relative;
     width: 334px;
     height: 420px;
     background-color: #d9d9d9;
     margin: 0 0 2.5rem 0;
+}
+
+.heart {
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 
 button { 
@@ -66,6 +73,7 @@ h4 {
 footer {
     background-color: #4D4B4B;
 }
+
 
 
 
