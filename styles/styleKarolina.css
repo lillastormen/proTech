@@ -26,7 +26,6 @@ button {
 }
 
 .buy {
-   
     font-weight: 600;
 }
 
@@ -56,10 +55,7 @@ h4 {
     width: 200px;   
 }
 
-
-
 .newsletterSend {
-    
     width: 102px;
     height: 49px;
     border-radius: 0px 10px 10px 0px; 
@@ -67,6 +63,9 @@ h4 {
     font-weight: 600;
 }
 
+footer {
+    background-color: #4D4B4B;
+}
 
 
 
