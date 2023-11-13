@@ -46,7 +46,7 @@ main {
 .image {
   width: 342px;
   height: 564px;
-  background-color: #d9d9d9;
+  background-color: #88dbe0;
   margin: 0 0 2.5rem 0;
 }
 
@@ -92,6 +92,7 @@ button p {
   display: flex;
   /* background-color: lightgreen; */
   align-items: center;
+  padding-top: 40px;
 }
 
 .moodimage01 {
@@ -105,6 +106,7 @@ button p {
   background-color: rgb(171, 171, 171);
   width: 100%;
   height: 200px;
+  margin-right: 24px;
 }
 
 button {

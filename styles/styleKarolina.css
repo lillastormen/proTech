@@ -2,6 +2,14 @@
     color: #d9d9d9;
 }
 
+
+.container {
+    background-color: #d9d9d9;
+}
+
+.revolution {
+    padding-top: 2.5rem;
+}
 .offers {
     padding: 2.5rem;
     background-color: #4D4B4B;
@@ -74,10 +82,6 @@ footer {
     background-color: #4D4B4B;
 }
 
-.info {
-    padding-top: 40px;
-}
-
 a { 
     color:#d9d9d9;
     padding: 5px;
@@ -90,6 +94,17 @@ a:visited {
 }
 a:active { 
     text-decoration: none; 
+}
+
+.info {
+    background-color: #4D4B4B;
+    padding: 60px 0px 0px 12px;
+}
+
+.socials {
+    background-color: #4D4B4B;
+    color:#d9d9d9;
+    padding: 30px 0px 15px 16px;
 }
 
 

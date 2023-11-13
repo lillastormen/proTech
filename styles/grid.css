@@ -42,22 +42,18 @@ header {
 
 .hero { 
     grid-area: hero; 
-    background-color: pink;
 }
   
 .companySlogan { 
     grid-area: companySlogan;
-    background-color: green;
 }
 
 .proTech {
     grid-area: proTech;
-    background-color:rgb(210, 205, 77)
 } 
 
 .mood {
     grid-area: mood;
-   
 }
 
   
@@ -74,8 +70,6 @@ header {
 
 .revolution { 
     grid-area: revolution; 
-    background-color: azure;
-    padding-top: 2.5rem;
 }
 
 .offers { 
@@ -165,15 +159,11 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    background-color: #4D4B4B;
-    padding-left: 12px;
-}
-.socials {
-    grid-area: socials;
-    background-color: #4D4B4B;
 }
 
-/* @media (max-width: ) { - use media queries to to make layout*/ 
-    /* .container {} */
-/* } */
-  
+.socials {
+    grid-area: socials;
+    display: flex;
+    gap: 45px;
+}
+
