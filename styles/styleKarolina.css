@@ -51,9 +51,23 @@ h4 {
     margin-bottom: 0;
 }
 
+.newsletter {
+    background-color: white;
+}
+
+.pictures1 {
+    padding-top: 90px;
+    background-color: white;
+}
+
+.balance {
+    background-color: white;
+}
+
 .newsletterText1 {
     width: 340px;
     padding-left: 16px;
+    
 }
 
 .newsletterForm1 {

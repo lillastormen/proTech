@@ -102,21 +102,22 @@ header {
     grid-area: newsletterForm1;
 }
 .pictures1 {
-    display: grid;
     grid-area: pictures1;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas:
-      "pic3 pic4";
+    display: flex;
+    align-items: center;
 }
 
 .pic3 {
-    grid-area: pic3;
-    background-color: aqua;
+    width: 100%;
+    height: 200px;
+    margin: 24px;
+    background-color: rgb(171, 171, 171);
 }
+
 .pic4 {
-    grid-area: pic4;
-    background-color: rgb(43, 148, 148);
+    width: 100%;
+    height: 304px;
+    background-color: rgb(171, 171, 171);
 }
 
 .balance {
@@ -132,15 +133,12 @@ header {
 
 .title1 {
     grid-area: title1;
-    background-color: bisque;
 }
 .text2 {
     grid-area: text2;
-    background-color: rgb(148, 119, 83);
 }
 .readMore1 {
     grid-area: readMore1;
-    background-color: rgb(105, 68, 22);
 }
 
 footer { 
@@ -149,7 +147,7 @@ footer {
     grid-template-columns: auto;
     grid-template-rows: auto;
     grid-template-areas:
-      "newsletter"
+      "newsletter1"
       "info"
       "socials";  
 }
