@@ -62,8 +62,12 @@ h4 {
 
 .balance {
     background-color: white;
+    padding-top: 30px;
 }
 
+.text2 {
+    padding-left: 16px;
+}
 .newsletterText1 {
     width: 340px;
     padding-left: 16px;
