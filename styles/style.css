@@ -83,6 +83,7 @@ button p {
   flex-direction: column;
   align-items: start;
   padding: 2.5rem;
+  padding-top: 0;
 }
 
 .mood {
@@ -90,18 +91,19 @@ button p {
   /* background-color: lightgreen; */
   align-items: center;
   padding-top: 60px;
-  background-color: (221,217,207);
+  
+  
 }
 
 .moodimage01 {
-  background-color: rgb(171, 171, 171);
+  background-color: (221,217,207);
   flex: 50%;
   height: 325px;
-  margin-right: 24px;
+  margin-right: 10px;
 }
 
 .moodimage02 {
-  background-color: rgb(171, 171, 171);
+  background-color: (221,217,207);
   flex: 50%;
   height: 325px;
 }

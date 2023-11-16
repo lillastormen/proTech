@@ -6,7 +6,6 @@
     grid-auto-flow: row;
     grid-template-areas:
       "hero"
-      "companySlogan"
       "mood"
       "concept"
       "revolution"
@@ -47,9 +46,7 @@ header {
   
 }
 
-.companySlogan {
-  grid-area: companySlogan;
-}
+
 
 .proTech {
   grid-area: proTech;
@@ -176,9 +173,6 @@ footer {
         width: 100%;
     }
 
-    .pic3, .pic4 {
-        height: 700px;
-        margin: 12px;
-    }
+    
    
 }
