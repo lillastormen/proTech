@@ -57,10 +57,12 @@ header {
 
 .mood {
   grid-area: mood;
+  background-color: (221,217,207);
 }
 
 .concept {
   display: grid;
+  background-color: (221,217,207);
   grid-area: concept;
   grid-template-columns: auto;
   grid-template-rows: auto;
@@ -68,6 +70,7 @@ header {
     "title"
     "text"
     "readMore";
+   
 }
 
 .revolution {
@@ -172,4 +175,10 @@ footer {
         bottom: 10%;
         width: 100%;
     }
+
+    .pic3, .pic4 {
+        height: 700px;
+        margin: 12px;
+    }
+   
 }
