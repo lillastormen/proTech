@@ -22,17 +22,24 @@ nav {
   align-items: center;
 }
 
-.burger {
-  width: 40px;
-  height: 34px;
-  border: 1px solid black;
+.burger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 30px;
+}
+
+.burger-line {
+  width: 100%;
+  height: 4px;
+  background-color: black;
 }
 
 main {
   width: 428px;
   background-color: #d9d9d9;
 }
-
 
 .revolution {
   display: flex;
@@ -61,6 +68,7 @@ h1 {
 
 h2 {
   margin: 0;
+  line-height: 1.2;
 }
 
 h3 {
@@ -73,6 +81,7 @@ p {
   font-family: "IBM Plex Sans KR", sans-serif;
   font-weight: 600;
   line-height: 150%;
+  max-width: 340px;
 }
 button p {
   margin: 0;
@@ -87,23 +96,15 @@ button p {
 
 .mood {
   display: flex;
-  /* background-color: lightgreen; */
   align-items: center;
   padding-top: 40px;
+  gap: 20px;
 }
 
 .moodimage01 {
   background-color: rgb(171, 171, 171);
   width: 100%;
-  height: 324px;
-  margin-right: 24px;
-}
-
-.moodimage02 {
-  background-color: rgb(171, 171, 171);
-  width: 100%;
-  height: 200px;
-  margin-right: 24px;
+  height: 428px;
 }
 
 button {
@@ -147,6 +148,7 @@ button:hover {
 
 .revolution h2 {
   text-align: center;
+  max-width: 342px;
 }
 
 .color-change {
@@ -155,13 +157,15 @@ button:hover {
 
 @keyframes color-change {
   0% {
-    color: red;
+    color: rgba(232, 196, 196, 1);
   }
-
-  50% {
-    color: blue;
+  33% {
+    color: rgba(52, 54, 67, 1);
+  }
+  66% {
+    color: rgba(69, 108, 91, 1);
   }
   100% {
-    color: red;
+    color: rgba(232, 196, 196, 1);
   }
 }
