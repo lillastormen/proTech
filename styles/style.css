@@ -99,21 +99,17 @@ button p {
   display: flex;
   align-items: center;
   padding-top: 60px;
-  
-  
 }
 
 .moodimage01 {
   background-color: (221,217,207);
   flex: 50%;
-  height: 325px;
   margin-right: 10px;
 }
 
 .moodimage02 {
   background-color: (221,217,207);
   flex: 50%;
-  height: 325px;
 }
 
 button {

@@ -24,20 +24,11 @@ header {
     position: fixed;
     width: 100%;
     max-width: 1000px;
-    position: fixed;
     z-index: 100;  
 }
 /* z-index positions stuff on top of everything else */
 
-.icon {
-  grid-area: icon;
-}
-.PT {
-  grid-area: PT;
-}
-.eng {
-  grid-area: eng;
-}
+
 
 .hero {
   grid-area: hero;
@@ -47,11 +38,6 @@ header {
 }
 
 
-
-.proTech {
-  grid-area: proTech;
-}
-
 .mood {
   grid-area: mood;
   background-color: (221,217,207);
@@ -60,6 +46,7 @@ header {
 .concept {
   display: grid;
   background-color: (221,217,207);
+  padding-top: 50px;
   grid-area: concept;
   grid-template-columns: auto;
   grid-template-rows: auto;
@@ -67,7 +54,6 @@ header {
     "title"
     "text"
     "readMore";
-   
 }
 
 .revolution {
@@ -112,14 +98,12 @@ header {
 
 .pic3 {
   width: 50%;
-  height: 350px;
   margin-right: 24px;
   background-color: rgb(171, 171, 171);
 }
 
 .pic4 {
   width: 50%;
-  height: 350px;
   background-color: rgb(171, 171, 171);
 }
 
@@ -176,7 +160,10 @@ footer {
         width: 100%;
     }
 
-    
-   
+    .koncepttext {
+        
+        align-items: center; 
+      
+    }
 }
 
