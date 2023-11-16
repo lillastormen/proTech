@@ -6,6 +6,26 @@
     background-color: #d9d9d9;
 }
 
+.hero {
+    background-image: url('/assets/hero_image.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+}
+
+.heroImage {
+    
+}
+
+.gradient {
+    position: absolute;
+    bottom: 0px;
+    background: rgb(221,217,207);
+    background: linear-gradient(0deg, rgba(221,217,207,1) 11%, rgba(0,212,255,0) 100%);
+    height: 300px;
+    width: 100%;
+}
 .revolution {
     padding-top: 2.5rem;
 }
