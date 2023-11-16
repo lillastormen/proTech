@@ -94,6 +94,10 @@ button p {
   padding: 2.5rem;
 }
 
+.koncepttext p {
+  max-width: 420px;
+}
+
 .mood {
   display: flex;
   align-items: center;
