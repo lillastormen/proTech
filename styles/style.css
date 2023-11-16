@@ -115,7 +115,10 @@ button {
   border: 1px solid black;
   z-index: 1;
   transition: color 0.6s cubic-bezier(0.64, 0, 0.4, 1); /* Add this line */
+  background-color: salmon;
 }
+
+/* button animation */
 
 button::before {
   content: "";
@@ -144,4 +147,21 @@ button:hover {
 
 .revolution h2 {
   text-align: center;
+}
+
+.color-change {
+  animation: color-change 5s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+
+  50% {
+    color: blue;
+  }
+  100% {
+    color: red;
+  }
 }
