@@ -61,7 +61,7 @@ main {
 }
 
 h1 {
-  font-size: 14vw;  /* changing px to vw to make it relative to the screen width (it was breaking in narrow mobile devices) */
+  font-size: 14vw; /* changing px to vw to make it relative to the screen width (it was breaking in narrow mobile devices) */
   font-weight: 700;
   margin: 0;
 }
@@ -69,6 +69,7 @@ h1 {
 h2 {
   margin: 0;
   line-height: 1.2;
+  color: black;
 }
 
 h3 {
@@ -92,7 +93,7 @@ button p {
   align-items: start;
   padding: 2.5rem;
   padding-top: 0;
-  max-width: 712px; 
+  max-width: 712px;
   margin: 0 auto;
 }
 
@@ -107,22 +108,18 @@ button p {
   padding-top: 60px;
 }
 
-.moodimage1, .moodimage2 {
-  background-color: (221,217,207);
-  width: 100%;
-  height: auto; 
-  display: block;
-}
-
 .moodimage1 {
+  background-color: (221, 217, 207);
+  width: 100%;
+  height: auto;
+  display: block;
   padding-right: 5px;
 }
 
-.moodimage2 {
-  padding-left: 5px;
+.offerImage {
+  background-image: url("assets/ProTechch_klocka_preview2.png");
+  background-size: cover;
 }
-
-
 
 button {
   position: relative;
@@ -170,6 +167,39 @@ button:hover {
 
 .color-change {
   animation: color-change 5s infinite;
+}
+
+.plus-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 25px;
+  height: 25px;
+}
+
+.plus-line-01,
+.plus-line-02 {
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+}
+
+.plus-line-01 {
+  width: 100%;
+  height: 4px;
+}
+
+.plus-line-02 {
+  width: 4px;
+  height: 100%;
+}
+
+.offer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 100%;
+  padding: 20px;
 }
 
 @keyframes color-change {
