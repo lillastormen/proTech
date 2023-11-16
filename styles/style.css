@@ -96,21 +96,28 @@ button p {
 }
 
 .mood {
+  grid-area: mood;
   display: flex;
   align-items: center;
   padding-top: 60px;
 }
 
-.moodimage01 {
+.moodimage1, .moodimage2 {
   background-color: (221,217,207);
-  flex: 50%;
-  margin-right: 10px;
+  width: 100%;
+  height: auto; 
+  display: block;
 }
 
-.moodimage02 {
-  background-color: (221,217,207);
-  flex: 50%;
+.moodimage1 {
+  padding-right: 5px;
 }
+
+.moodimage2 {
+  padding-left: 5px;
+}
+
+
 
 button {
   position: relative;
