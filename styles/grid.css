@@ -1,28 +1,34 @@
-.container {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "hero"
-    "companySlogan"
-    "mood"
-    "concept"
-    "revolution"
-    "offers"
-    "newsletter"
-    "pictures1"
-    "balance"
-    "footer";
-  max-width: 1000px;
-  width: 100%;
-  margin: 0 auto;
-}
-
 header {
-  position: fixed;
+    position: fixed;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "hero"
+      "companySlogan"
+      "mood"
+      "concept"
+      "revolution"
+      "offers"
+      "newsletter"
+      "pictures1"
+      "balance"
+      "footer";
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+header { 
+    position: fixed;
+    width: 100%;
+    max-width: 1000px;
+    position: fixed;
+    z-index: 100;  
 }
+/* z-index positions stuff on top of everything else */
 
 .icon {
   grid-area: icon;
@@ -51,10 +57,12 @@ header {
 
 .mood {
   grid-area: mood;
+  background-color: (221,217,207);
 }
 
 .concept {
   display: grid;
+  background-color: (221,217,207);
   grid-area: concept;
   grid-template-columns: auto;
   grid-template-rows: auto;
@@ -62,6 +70,7 @@ header {
     "title"
     "text"
     "readMore";
+   
 }
 
 .revolution {
@@ -105,15 +114,15 @@ header {
 }
 
 .pic3 {
-  width: 100%;
-  height: 200px;
-  margin: 24px;
+  width: 50%;
+  height: 350px;
+  margin-right: 24px;
   background-color: rgb(171, 171, 171);
 }
 
 .pic4 {
-  width: 100%;
-  height: 304px;
+  width: 50%;
+  height: 350px;
   background-color: rgb(171, 171, 171);
 }
 
@@ -162,10 +171,18 @@ footer {
   gap: 45px;
 }
 
-@media (min-width: 1200px) {
-  .herospan {
-    position: absolute;
-    bottom: 10%;
-    width: 100%;
-  }
+
+ @media (min-width: 1200px) {  
+    .herospan {
+        position: absolute;
+        bottom: 10%;
+        width: 100%;
+    }
+
+    .pic3, .pic4 {
+        height: 700px;
+        margin: 12px;
+    }
+   
 }
+
