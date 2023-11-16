@@ -38,6 +38,10 @@ header {
 
 .hero {
   grid-area: hero;
+  display: grid;
+  grid-template-columns: auto; 
+  grid-template-rows: 1fr auto;
+  
 }
 
 .companySlogan {
@@ -160,5 +164,9 @@ footer {
 }
 
  @media (min-width: 1200px) {  
-
+    .herospan {
+        position: absolute;
+        bottom: 10%;
+        width: 100%;
+    }
 }

@@ -7,16 +7,18 @@
 }
 
 .hero {
-    background-image: url('/assets/hero_image.jpg');
-    background-size: cover;
-    background-position: center center;
+   
     height: 100vh;
     position: relative;
 }
 
 .heroImage {
-    
+    background-image: url('/assets/hero_image.jpg');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
 }
+
 
 .gradient {
     position: absolute;
@@ -26,6 +28,7 @@
     height: 300px;
     width: 100%;
 }
+
 .revolution {
     padding-top: 2.5rem;
 }
