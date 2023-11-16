@@ -27,144 +27,138 @@ header {
 }
 
 .icon {
-    grid-area: icon;
+  grid-area: icon;
 }
 .PT {
-    grid-area: PT;
+  grid-area: PT;
 }
 .eng {
-    grid-area: eng;
+  grid-area: eng;
 }
 
-
-.hero { 
-    grid-area: hero; 
+.hero {
+  grid-area: hero;
 }
-  
-.companySlogan { 
-    grid-area: companySlogan;
+
+.companySlogan {
+  grid-area: companySlogan;
 }
 
 .proTech {
-    grid-area: proTech;
-} 
+  grid-area: proTech;
+}
 
 .mood {
-    grid-area: mood;
+  grid-area: mood;
 }
 
-  
-.concept { 
-    display: grid;
-    grid-area: concept; 
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas:
-      "title"
-      "text"
-      "readMore";
+.concept {
+  display: grid;
+  grid-area: concept;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "title"
+    "text"
+    "readMore";
 }
 
-.revolution { 
-    grid-area: revolution; 
+.revolution {
+  grid-area: revolution;
 }
 
-.offers { 
-    display: grid;
-    grid-area: offers; 
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-auto-flow: row;
-    overflow: hidden;
+.offers {
+  display: grid;
+  grid-area: offers;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-flow: row;
+  overflow: hidden;
 }
-
 
 .newsletter {
-    display: grid;
-    grid-area: newsletter;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas:
-      "newsletterTitle1"
-      "newsletterText1"
-      "newsletterForm1";
+  display: grid;
+  grid-area: newsletter;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "newsletterTitle1"
+    "newsletterText1"
+    "newsletterForm1";
 }
 
 .newsletterTitlet1 {
-    grid-area: newsletterTitlet1;
+  grid-area: newsletterTitlet1;
 }
 .newsletterText1 {
-    grid-area: newsletterText1;
+  grid-area: newsletterText1;
 }
 .newsletterForm1 {
-    grid-area: newsletterForm1;
+  grid-area: newsletterForm1;
 }
 .pictures1 {
-    grid-area: pictures1;
-    display: flex;
-    align-items: center;
+  grid-area: pictures1;
+  display: flex;
+  align-items: center;
 }
 
 .pic3 {
-    width: 100%;
-    height: 200px;
-    margin: 24px;
-    background-color: rgb(171, 171, 171);
+  width: 100%;
+  height: 200px;
+  margin: 24px;
+  background-color: rgb(171, 171, 171);
 }
 
 .pic4 {
-    width: 100%;
-    height: 304px;
-    background-color: rgb(171, 171, 171);
+  width: 100%;
+  height: 304px;
+  background-color: rgb(171, 171, 171);
 }
 
 .balance {
-    display: grid;
-    grid-area: balance;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas:
-      "title1"
-      "text2"
-      "readMore1";
+  display: grid;
+  grid-area: balance;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "title1"
+    "text2"
+    "readMore1";
 }
 
 .title1 {
-    grid-area: title1;
+  grid-area: title1;
 }
 .text2 {
-    grid-area: text2;
+  grid-area: text2;
 }
 .readMore1 {
-    grid-area: readMore1;
+  grid-area: readMore1;
 }
 
-footer { 
-    display: grid;
-    grid-area: footer; 
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas:
-      "newsletter1"
-      "info"
-      "socials";  
+footer {
+  display: grid;
+  grid-area: footer;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "newsletter1"
+    "info"
+    "socials";
 }
 
 .info {
-    grid-area: info;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+  grid-area: info;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 .socials {
-    grid-area: socials;
-    display: flex;
-    gap: 45px;
+  grid-area: socials;
+  display: flex;
+  gap: 45px;
 }
 
  @media (min-width: 1200px) {  
-   .hero 
-    }
 
-    
 }
