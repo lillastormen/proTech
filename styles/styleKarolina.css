@@ -7,18 +7,16 @@
 }
 
 .hero {
-   
     height: 100vh;
     position: relative;
 }
 
 .heroImage {
     background-image: url('/assets/hero_image.jpg');
-    background-size: cover;
-    background-position: center center;
-    position: relative;
+    background-size:cover;
+    background-position: center;
+    position: relative;   
 }
-
 
 .gradient {
     position: absolute;
@@ -37,14 +35,14 @@
     padding: 2.5rem;
     background-color: #4D4B4B;
     gap: 40px;
-  }
+}
 
 .offer {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-
 }
+
 .offerImage {
     position: relative;
     width: 300px;
@@ -83,19 +81,7 @@ h4 {
     background-color: white;
 }
 
-.balance {
-    background-color: white;
-    padding-top: 30px;
-}
 
-.readMore1 {
-    margin-bottom: 50px;
-    padding: 10px 0px 0px 16px;
-}
-
-.read {
-    font-weight: 600;
-}
 
 .text2 {
     padding-left: 16px;
@@ -157,8 +143,38 @@ a:active {
 }
 
 
+@media (min-width: 1200px) {  
+    
 
+    .herospan {
+        position: absolute;
+        bottom: 5%;
+        width: 100%;
+    }
+    
+    .pic3 {
+        padding: 0px 5px 0px 10px;
+    }
+    .pic4 {
+        padding: 0px 10px 0px 5px;
+    }
 
+    .moodimage1 {
+        padding: 0px 5px 0px 10px;
+    }
+    .moodimage2 {
+        padding: 0px 10px 0px 5px;
+       
+    }
+    h1 {
+        font-size: 100px;
+    }
 
+    .balance {
+        padding-top: 90px;
+    }
 
-
+    .koncepttext {
+        padding-top: 60px;
+    }
+}

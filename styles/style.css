@@ -61,7 +61,7 @@ main {
 }
 
 h1 {
-  font-size: 62px;
+  font-size: 14vw;  /* changing px to vw to make it relative to the screen width (it was breaking in narrow mobile devices) */
   font-weight: 700;
   margin: 0;
 }
@@ -81,7 +81,6 @@ p {
   font-family: "IBM Plex Sans KR", sans-serif;
   font-weight: 600;
   line-height: 150%;
-  max-width: 340px;
 }
 button p {
   margin: 0;
@@ -93,6 +92,8 @@ button p {
   align-items: start;
   padding: 2.5rem;
   padding-top: 0;
+  max-width: 712px; 
+  margin: 0 auto;
 }
 
 .mood {
