@@ -108,7 +108,8 @@ button p {
   padding-top: 60px;
 }
 
-.moodimage1 {
+.moodimage1,
+.moodimage2 {
   background-color: (221, 217, 207);
   width: 100%;
   height: auto;
