@@ -23,7 +23,7 @@ header {
 header { 
     position: fixed;
     width: 100%;
-    max-width: 1000px;
+    max-width: 1800px;
     z-index: 100;  
 }
 /* z-index positions stuff on top of everything else */
@@ -159,6 +159,9 @@ footer {
 
 
  @media (min-width: 1200px) {  
+    
+  
+    
     .herospan {
         position: absolute;
         bottom: 10%;
