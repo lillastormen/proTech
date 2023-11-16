@@ -96,6 +96,10 @@ button p {
   margin: 0 auto;
 }
 
+.koncepttext p {
+  max-width: 420px;
+}
+
 .mood {
   grid-area: mood;
   display: flex;
