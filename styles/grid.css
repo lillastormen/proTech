@@ -1,4 +1,5 @@
-.container {
+header {
+    position: fixed;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
@@ -42,9 +43,8 @@ header {
 .hero {
   grid-area: hero;
   display: grid;
-  grid-template-columns: auto; 
+  grid-template-columns: auto;
   grid-template-rows: 1fr auto;
-  
 }
 
 .companySlogan {
@@ -109,6 +109,8 @@ header {
   grid-area: pictures1;
   display: flex;
   align-items: center;
+  padding-top: 40px;
+  gap: 20px;
 }
 
 .pic3 {
@@ -169,6 +171,7 @@ footer {
   gap: 45px;
 }
 
+
  @media (min-width: 1200px) {  
     .herospan {
         position: absolute;
@@ -182,3 +185,4 @@ footer {
     }
    
 }
+
