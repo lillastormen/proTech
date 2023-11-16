@@ -12,10 +12,10 @@
 }
 
 .heroImage {
-  background-image: url("/assets/hero_image.jpg");
-  background-size: cover;
-  background-position: center;
-  position: relative;
+    background-image: url('../assets/hero_image.jpg');
+    background-size:cover;
+    background-position: center;
+    position: relative;   
 }
 
 .gradient {
