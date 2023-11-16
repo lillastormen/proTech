@@ -140,7 +140,6 @@ a:active {
 }
 
 .socials {
-
   background-color: #4d4b4b;
   color: #d9d9d9;
   padding: 30px 0px 15px 16px;
@@ -156,6 +155,7 @@ a:active {
   .pic3 {
     padding: 0px 5px 0px 10px;
   }
+
   .pic4 {
     padding: 0px 10px 0px 5px;
   }
@@ -163,9 +163,11 @@ a:active {
   .moodimage1 {
     padding: 0px 5px 0px 10px;
   }
+
   .moodimage2 {
     padding: 0px 10px 0px 5px;
   }
+
   h1 {
     font-size: 100px;
   }
@@ -177,53 +179,8 @@ a:active {
   .koncepttext {
     padding-top: 60px;
   }
+
+  .newsletter {
+    display: none;
+  }
 }
-
-    background-color: #4D4B4B;
-    color:#d9d9d9;
-    padding: 30px 0px 15px 16px;
-}
-
-
-@media (min-width: 1200px) {  
-    
-
-    .herospan {
-        position: absolute;
-        bottom: 5%;
-        width: 100%;
-    }
-    
-    .pic3 {
-        padding: 0px 5px 0px 10px;
-    }
-
-    .pic4 {
-        padding: 0px 10px 0px 5px;
-    }
-    
-    .moodimage1 {
-        padding: 0px 5px 0px 10px;
-    }
-
-    .moodimage2 {
-        padding: 0px 10px 0px 5px;
-    }
-
-    h1 {
-        font-size: 100px;
-    }
-
-    .balance {
-        padding-top: 90px;
-    }
-
-    .koncepttext {
-        padding-top: 60px;
-    }
-
-    .newsletter {
-        display: none;
-    }
-}
-
