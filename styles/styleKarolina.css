@@ -16,10 +16,10 @@
 }
 
 .heroImage {
-    background-image: url('../assets/hero_image.jpg');
-    background-size:cover;
-    background-position: center;
-    position: relative;   
+  background-image: url("../assets/hero_image.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
 .gradient {
@@ -33,10 +33,6 @@
   );
   height: 300px;
   width: 100%;
-}
-
-.revolution {
-  padding-top: 2.5rem;
 }
 
 .offers {
@@ -56,10 +52,12 @@
   width: 100%;
   height: 578px;
   margin: 2.5rem 0 2.5rem 0;
-  background-image: url('../assets/ProTechch_klocka_preview2.png');
+  background-image: url("../assets/ProTechch_klocka_preview2.png");
   background-size: cover;
-  background-position: center; 
+  background-position: center;
 }
+
+
 
 .moodInfo {
   display: none;
@@ -70,8 +68,6 @@
 button {
   width: fit-content;
 }
-
-
 
 h4 {
   font-size: 20px;
@@ -193,7 +189,7 @@ a:active {
   }
 
   .offers {
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .moodInfo {
