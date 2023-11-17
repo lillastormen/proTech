@@ -1,6 +1,6 @@
 /* created two classes for font colors */
 .lightFont {
-  color: #d9d9d9;
+  color: white;
 }
 .darkFont {
   color: black;
@@ -88,6 +88,10 @@ h4 {
   padding-top: 90px;
   background-color: white;
   gap: 10px;
+}
+
+.pictureInfo {
+  display: none;
 }
 
 .text2 {
@@ -202,6 +206,20 @@ a:active {
     
   }
   .moodInfo h2 {
+    padding-top: 60px;
+    padding-bottom: 20px;
+  }
+
+  .pictureInfo {
+    display: block;
+    position: absolute;
+    max-width: 550px;
+    height: 108px;
+    padding-left: 75px;
+    font-size: 23px;
+  }
+
+  .pictureInfo h2 {
     padding-top: 60px;
     padding-bottom: 20px;
   }
