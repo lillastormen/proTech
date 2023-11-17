@@ -12,10 +12,10 @@
 }
 
 .heroImage {
-    background-image: url('../assets/hero_image.jpg');
-    background-size:cover;
-    background-position: center;
-    position: relative;   
+  background-image: url("../assets/hero_image.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
 .gradient {
@@ -52,8 +52,9 @@
   width: 300px;
   height: 420px;
   background-color: #ffffff;
-  margin: 0 0 2.5rem 0;
-  background-image: url("/assets/ProTechch_klocka_preview2.png");
+  background-size: cover;
+  background-position: center;
+  background-image: url("../assets/ProTechch_klocka_preview2.png");
 }
 
 .heart {

@@ -177,6 +177,12 @@ button:hover {
   position: relative;
   width: 25px;
   height: 25px;
+
+  transition: transform 0.5s cubic-bezier(0.8, 0, 0.24, 1);
+}
+
+.plus-icon:hover {
+  transform: rotate(90deg);
 }
 
 .plus-line-01,
