@@ -1,5 +1,9 @@
+/* created two classes for font colors */
 .lightFont {
-  color: #d9d9d9;
+  color: white;
+}
+.darkFont {
+  color: black;
 }
 
 .container {
@@ -53,6 +57,14 @@
   background-position: center;
 }
 
+
+
+.moodInfo {
+  display: none;
+}
+
+
+
 button {
   width: fit-content;
 }
@@ -71,6 +83,11 @@ h4 {
 .pictures1 {
   padding-top: 90px;
   background-color: white;
+  gap: 10px;
+}
+
+.pictureInfo {
+  display: none;
 }
 
 .text2 {
@@ -173,5 +190,33 @@ a:active {
 
   .offers {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .moodInfo {
+    display: block;
+    position: absolute;
+    max-width: 550px;
+    height: 108px;
+    padding-left: 75px;
+    font-size: 23px;
+    
+  }
+  .moodInfo h2 {
+    padding-top: 60px;
+    padding-bottom: 20px;
+  }
+
+  .pictureInfo {
+    display: block;
+    position: absolute;
+    max-width: 550px;
+    height: 108px;
+    padding-left: 75px;
+    font-size: 23px;
+  }
+
+  .pictureInfo h2 {
+    padding-top: 60px;
+    padding-bottom: 20px;
   }
 }

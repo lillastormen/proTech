@@ -70,7 +70,7 @@ h1 {
 h2 {
   margin: 0;
   line-height: 1.2;
-  color: black;
+
 }
 
 h3 {
@@ -107,6 +107,7 @@ button p {
   display: flex;
   align-items: center;
   padding-top: 60px;
+  gap: 10px;
 }
 
 .moodimage1,
@@ -115,13 +116,9 @@ button p {
   width: 100%;
   height: auto;
   display: block;
-  padding-right: 5px;
+ 
 }
 
-.offerImage {
-  background-image: url("assets/ProTechch_klocka_preview2.png");
-  background-size: cover;
-}
 
 button {
   position: relative;
