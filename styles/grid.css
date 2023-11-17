@@ -50,7 +50,8 @@ header {
 .offers {
   display: grid;
   grid-area: offers;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
   grid-auto-flow: row;
   overflow: hidden;
 }
@@ -91,12 +92,7 @@ header {
     display: block;
 }
 
-.pic3 {
-    padding-right: 5px;
-}
-.pic4 {
-    padding-left: 5px;
-}
+
 
 .balance {
     grid-area: balance;
@@ -108,6 +104,8 @@ header {
     max-width: 712px; 
     margin: 0 auto;
   }
+
+  
 
 
 .title1 {
