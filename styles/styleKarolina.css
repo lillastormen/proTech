@@ -62,6 +62,10 @@
   display: none;
 }
 
+.mood-container {
+  position: relative;
+}
+
 
 
 button {
@@ -85,8 +89,14 @@ h4 {
   gap: 10px;
 }
 
+.pictureContainer {
+  position: relative;
+}
+
 .pictureInfo {
   display: none;
+  max-width: 550px;
+  width: 80%;
 }
 
 .text2 {
@@ -150,9 +160,10 @@ a:active {
 
 video {
   max-width: 100%;
+  padding-bottom: 60px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 1000px) {
   .herospan {
     position: absolute;
     bottom: 5%;
@@ -202,8 +213,6 @@ video {
   .moodInfo {
     display: block;
     position: absolute;
-    max-width: 550px;
-    height: 108px;
     padding-left: 75px;
     font-size: 23px;
     
@@ -216,8 +225,6 @@ video {
   .pictureInfo {
     display: block;
     position: absolute;
-    max-width: 550px;
-    height: 108px;
     padding-left: 75px;
     font-size: 23px;
   }
@@ -226,8 +233,10 @@ video {
     padding-top: 60px;
     padding-bottom: 20px;
   }
+
+  .socials {
+    display: none;
+  }
 }
 
-@media (min-width: 1200px) {
 
-}
