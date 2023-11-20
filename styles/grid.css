@@ -1,5 +1,4 @@
-header {
-    position: fixed;
+.container {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
@@ -15,14 +14,20 @@ header {
       "pictures1"
       "balance"
       "footer";
-    max-width: 1800px;
+    max-width: var(--page-width);
     width: 100%;
     margin: 0 auto;
     z-index: 100;  
 }
 /* z-index positions stuff on top of everything else */
 
-
+header { 
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  justify-content: center;
+  display: flex;
+}
 
 .hero {
   grid-area: hero;
@@ -104,8 +109,6 @@ header {
     max-width: 712px; 
     margin: 0 auto;
   }
-
-  
 
 
 .title1 {
