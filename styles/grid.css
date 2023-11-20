@@ -144,6 +144,37 @@ footer {
   gap: 45px;
 }
 
+.infoDesktop {
+  display: none;
+}
+
+
+
+@media (min-width: 1000px) {
+
+  footer {
+    display: grid;
+    grid-area: footer;
+    grid-template-columns: 1fr  1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "info newsletter1";
+    padding-bottom: 40px;
+    
+  }
+
+  .infoDesktop {
+    grid-area: info;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .info {
+    display: none;
+  }
+}
+
 
 
 

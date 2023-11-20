@@ -198,10 +198,6 @@ video {
     padding-top: 60px;
   }
 
-  .newsletter {
-    display: none;
-  }
-
   .offers {
     grid-template-columns: 1fr 1fr 1fr;
   }
