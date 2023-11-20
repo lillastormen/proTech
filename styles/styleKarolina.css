@@ -46,9 +46,8 @@
 }
 
 .offer {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
+  display: block;
+   width: 95vw;  /*ask designers how wide they want these pictures to be*/
 }
 
 .offerImage {
