@@ -1,4 +1,5 @@
 
+
 .container {
   background-color: var(--baige);
 }
@@ -6,6 +7,7 @@
 .burgerMenuDesktop {
   display: none;
 }
+
 
 .hero {
   height: 100vh;
@@ -26,7 +28,7 @@
   background: linear-gradient(
     0deg,
     var(--baige) 11%,
-    var(--grey-olive) 100%
+    rgba(0, 212, 255, 0) 100%
   );
   height: 300px;
   width: 100%;
@@ -128,11 +130,9 @@ a {
 a:link {
   text-decoration: none;
 }
-
 a:visited {
   text-decoration: none;
 }
-
 a:active {
   text-decoration: none;
 }
@@ -200,7 +200,6 @@ video {
     padding: 0 6rem 0 3rem;
     font-size: 23px;
   }
-
   .moodInfo h2 {
     padding-top: 60px;
     padding-bottom: 20px;
@@ -226,24 +225,9 @@ video {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
+    width: 30px;
     height: 30px;
   }
-
-
-  .menuDivMiddle,
-  .menuDivRight {
-    display: flex;
-  }
-
-  .menuDivRight > * {
-    margin: 0 0 0 3rem;
-  }
-
-  .menuDivMiddle > * {
-    margin: 0 0 0 8rem;
-  }
-
 
   .infoDesktop {
     padding-left: 120px;
@@ -254,5 +238,6 @@ video {
   .newsletter1 {
     padding-left: 70px;
   }
-
+  
+  
 }
