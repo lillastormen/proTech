@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 14493a2e2bfc1b125bd8234a820f0f948287e8ef
 .container {
   background-color: var(--baige);
 }
@@ -25,11 +28,15 @@
   position: absolute;
   bottom: 0px;
   background: var(--baige);
+<<<<<<< HEAD
   background: linear-gradient(
     0deg,
     var(--baige) 11%,
     rgba(0, 212, 255, 0) 100%
   );
+=======
+  background: linear-gradient(0deg, var(--baige) 11%, var(--grey-olive) 100%);
+>>>>>>> 14493a2e2bfc1b125bd8234a820f0f948287e8ef
   height: 300px;
   width: 100%;
 }
@@ -118,7 +125,8 @@ footer {
   background-color: var(--white);
 }
 
-footer p, h4 {
+footer p,
+h4 {
   color: var(--grey);
 }
 
@@ -229,15 +237,46 @@ video {
     height: 30px;
   }
 
+<<<<<<< HEAD
+=======
+  .burgerMenuDesktop img:hover {
+    opacity: 50%;
+    cursor: pointer;
+  }
+
+  .menuDivMiddle,
+  .menuDivRight {
+    display: flex;
+  }
+
+  .menuDivRight > * {
+    margin: 0 0 0 3rem;
+  }
+
+  .menuDivMiddle > * {
+    margin: 0 0 0 8rem;
+  }
+
+  .menuDivMiddle img:hover,
+  .menuDivMiddle p:hover,
+  .menuDivRight img:hover,
+  .menuDivRight p:hover {
+    opacity: 50%;
+    cursor: pointer;
+  }
+
+>>>>>>> 14493a2e2bfc1b125bd8234a820f0f948287e8ef
   .infoDesktop {
     padding-left: 120px;
     padding-top: 25px;
   }
 
-  
   .newsletter1 {
     padding-left: 70px;
   }
+<<<<<<< HEAD
   
   
+=======
+>>>>>>> 14493a2e2bfc1b125bd8234a820f0f948287e8ef
 }

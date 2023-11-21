@@ -125,6 +125,8 @@ button {
 
 .plusIcon:hover {
   transform: rotate(90deg);
+  cursor: pointer;
+  opacity: 80%;
 }
 
 .plusLine01,
