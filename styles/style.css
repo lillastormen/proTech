@@ -50,7 +50,6 @@ main {
   padding: 30px;
 }
 
-
 .herospan {
   display: flex;
   flex-direction: column;
@@ -125,29 +124,6 @@ button {
   background-color: salmon;
 }
 
-/* button animation */
-
-button::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(0, 0, 0);
-  transition: transform 0.5s cubic-bezier(0.64, 0, 0.4, 1);
-  transform: translateX(0);
-  z-index: -1;
-}
-
-button:hover::before {
-  transform: translateX(100%);
-}
-
-button:hover {
-  color: rgb(0, 0, 0);
-}
-
 .koncepttext span {
   max-width: 162px;
 }
@@ -168,9 +144,10 @@ button:hover {
   position: relative;
   width: 25px;
   height: 25px;
-
   transition: transform 0.5s cubic-bezier(0.8, 0, 0.24, 1);
 }
+
+/* plus-icon animation */
 
 .plus-icon:hover {
   transform: rotate(90deg);
@@ -200,6 +177,8 @@ button:hover {
   padding: 20px;
 }
 
+/* image-hover animation */
+
 .zoom {
   transition: transform 0.2s; /* Animation */
 }
@@ -208,6 +187,29 @@ button:hover {
   transform: scale(
     1.01
   ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/* button animation */
+
+button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  transition: transform 0.5s cubic-bezier(0.64, 0, 0.4, 1);
+  transform: translateX(0);
+  z-index: -1;
+}
+
+button:hover::before {
+  transform: translateX(100%);
+}
+
+button:hover {
+  color: rgb(0, 0, 0);
 }
 
 @keyframes color-change {
