@@ -47,7 +47,6 @@
 .offer {
   display: block;
   width: 95vw; /*ask designers how wide they want these pictures to be*/
-
 }
 
 .offerImage {
@@ -203,7 +202,7 @@ video {
   .moodInfo {
     display: block;
     position: absolute;
-    padding-left: 75px;
+    padding: 0 6rem 0 3rem;
     font-size: 23px;
   }
   .moodInfo h2 {
