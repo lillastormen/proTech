@@ -1,5 +1,5 @@
 :root {
-    --page-width: 1500px;
+    --page-width: 100vw;
 
     --baige: #DDD9CF;
     --grey-olive: #A39B81;
@@ -11,7 +11,7 @@
     --black: black;
     --light-grey: #d9d9d9;
 
-    
+
 
 
 
