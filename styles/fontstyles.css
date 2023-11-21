@@ -30,7 +30,7 @@ p {
   line-height: 150%;
 }
 
-@media (min-width: 1000px) {
+/* @media (min-width: 1000px) { 
   p {
     font-size: 28px;
   }
@@ -39,7 +39,7 @@ p {
 @media (min-width: 550px) {
   p {
     font-size: 22px;
-  }
+  }*/   
 
   .koncepttext {
     padding: 3.5rem;
