@@ -1,15 +1,18 @@
 :root {
-  --page-width: 100vw;
 
-  --baige: #ddd9cf;
-  --grey-olive: #a39b81;
-  --light-pink: #e8c4c4;
-  --dark-pink: #e39697;
-  --navy: #343643;
-  --green: #456c5b;
-  --white: white;
-  --black: black;
-  --light-grey: #d9d9d9;
+    --page-width: 100vw;
+
+    --baige: #DDD9CF;
+    --grey-olive: #A39B81;
+    --light-pink: #E8C4C4;
+    --dark-pink: #E39697;
+    --navy: #343643;
+    --green: #456C5B;
+    --white: white;
+    --black: black;
+    --light-grey: #d9d9d9;
+
+
 }
 
 /* TODO
