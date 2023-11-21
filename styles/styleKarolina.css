@@ -44,8 +44,9 @@
   height: 578px;
   margin: 2.5rem 0 2.5rem 0;
   background-image: url("../assets/ProTechch_klocka_preview2.png");
-  background-size: cover;
+  background-size: 225%;
   background-position: center;
+  transition: all 0.3s ease-in-out;
 }
 
 .moodInfo {
