@@ -126,7 +126,7 @@ button {
 .plusIcon:hover {
   transform: rotate(90deg);
   cursor: pointer;
-  opacity: 80%;
+  opacity: 50%;
 }
 
 .plusLine01,
@@ -155,14 +155,10 @@ button {
 
 /* image-hover animation */
 
-.zoom {
-  transition: transform 0.2s; /* Animation */
-}
-
 .zoom:hover {
-  transform: scale(
-    1.01
-  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  background-size: 230%;
+  cursor: pointer;
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 /* button animation */
@@ -186,6 +182,7 @@ button:hover::before {
 
 button:hover {
   color: rgb(0, 0, 0);
+  cursor: pointer;
 }
 
 @keyframes color-change {
