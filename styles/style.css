@@ -20,7 +20,12 @@ nav {
   padding: 2.5rem;
 }
 
-.burger-menu {
+main {
+  width: 428px;
+  background-color: #d9d9d9;
+}
+
+.burgerMenu {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -28,15 +33,10 @@ nav {
   height: 30px;
 }
 
-.burger-line {
+.burgerLine {
   width: 100%;
   height: 4px;
   background-color: black;
-}
-
-main {
-  width: 428px;
-  background-color: #d9d9d9;
 }
 
 .revolution {
@@ -77,14 +77,12 @@ button p {
 .mood {
   grid-area: mood;
   display: flex;
-  align-items: center;
   padding-top: 60px;
   gap: 10px;
 }
 
-.moodimage1,
-.moodimage2 {
-  background-color: (221, 217, 207);
+.moodImage01,
+.moodImage02 {
   width: 100%;
   height: auto;
   display: block;
@@ -111,11 +109,11 @@ button {
   max-width: 342px;
 }
 
-.color-change {
+.colorChange {
   animation: color-change 5s infinite;
 }
 
-.plus-icon {
+.plusIcon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -127,27 +125,27 @@ button {
 
 /* plus-icon animation */
 
-.plus-icon:hover {
+.plusIcon:hover {
   transform: rotate(90deg);
 }
 
-.plus-line-01,
-.plus-line-02 {
+.plusLine01,
+.plusLine02 {
   position: absolute;
   background-color: rgb(0, 0, 0);
 }
 
-.plus-line-01 {
+.plusLine01 {
   width: 100%;
   height: 4px;
 }
 
-.plus-line-02 {
+.plusLine02 {
   width: 4px;
   height: 100%;
 }
 
-.offer-wrapper {
+.offerWrapper {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;

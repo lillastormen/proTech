@@ -46,7 +46,8 @@
 
 .offer {
   display: block;
-  width: 95vw;  /*ask designers how wide they want these pictures to be*/
+  width: 95vw; /*ask designers how wide they want these pictures to be*/
+
 }
 
 .offerImage {
@@ -63,7 +64,7 @@
   display: none;
 }
 
-.mood-container {
+.moodContainer {
   position: relative;
 }
 
@@ -204,7 +205,6 @@ video {
     position: absolute;
     padding-left: 75px;
     font-size: 23px;
-    
   }
   .moodInfo h2 {
     padding-top: 60px;
@@ -227,5 +227,3 @@ video {
     display: none;
   }
 }
-
-
