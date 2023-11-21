@@ -7,6 +7,9 @@
     --dark-pink: #E39697;
     --navy: #343643;
     --green: #456C5B;
+    --white: white;
+    --black: black;
+    --light-grey: #d9d9d9;
 
 
 
@@ -15,7 +18,7 @@
 }
 
 /* TODO
--var for colors
+
 -padding scale maybe?
 -font sizes, styles?
 -

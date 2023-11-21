@@ -7,7 +7,7 @@
 }
 
 .container {
-  background-color: rgb(221, 217, 207);
+  background-color: var(--baige);
 }
 
 .hero {
@@ -25,10 +25,10 @@
 .gradient {
   position: absolute;
   bottom: 0px;
-  background: rgb(221, 217, 207);
+  background: var(--baige);
   background: linear-gradient(
     0deg,
-    rgba(221, 217, 207, 1) 11%,
+    var(--baige) 11%,
     rgba(0, 212, 255, 0) 100%
   );
   height: 300px;
@@ -37,7 +37,7 @@
 
 .offers {
   padding: 2.5rem;
-  background-color: #4d4b4b;
+  background-color: var(--grey-olive);
   gap: 40px;
 }
 
@@ -80,12 +80,12 @@ h4 {
 }
 
 .newsletter {
-  background-color: white;
+  background-color: var(--white);
 }
 
 .pictures1 {
   padding-top: 90px;
-  background-color: white;
+  background-color: var(--white);
   gap: 10px;
 }
 
@@ -130,11 +130,11 @@ h4 {
 }
 
 footer {
-  background-color: #4d4b4b;
+  background-color: var(--grey-olive);
 }
 
 a {
-  color: #d9d9d9;
+  color: var(--light-grey);
   padding: 5px;
 }
 a:link {
@@ -148,13 +148,13 @@ a:active {
 }
 
 .info {
-  background-color: #4d4b4b;
+  background-color: var(--grey-olive);
   padding: 60px 0px 0px 12px;
 }
 
 .socials {
-  background-color: #4d4b4b;
-  color: #d9d9d9;
+  background-color: var(--grey-olive);
+  color: var(--baige);
   padding: 30px 0px 15px 16px;
 }
 
