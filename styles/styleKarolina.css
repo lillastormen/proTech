@@ -9,9 +9,10 @@
   background-color: var(--baige);
 }
 
-.desktop {
+.burgerMenuDesktop {
   display: none;
 }
+
 
 .hero {
   height: 100vh;
@@ -223,7 +224,17 @@ video {
     padding-bottom: 20px;
   }
 
-  .socials {
+  .burgerMenu {
     display: none;
   }
+
+  .burgerMenuDesktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+
+  }
+  
 }
