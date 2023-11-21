@@ -97,7 +97,6 @@ header {
 }
 
 
-
 .balance {
     grid-area: balance;
     display: flex;
@@ -107,7 +106,7 @@ header {
     padding-top: 50px;
     max-width: 712px; 
     margin: 0 auto;
-  }
+}
 
 
 .title1 {
@@ -173,6 +172,7 @@ footer {
   .info {
     display: none;
   }
+  
 }
 
 
