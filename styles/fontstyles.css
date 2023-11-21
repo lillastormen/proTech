@@ -1,29 +1,45 @@
 h1 {
-    font-size: 14vw; /* changing px to vw to make it relative to the screen width (it was breaking in narrow mobile devices) */
-    font-weight: 700;
-    margin: 0;
-  }
-  
+  font-size: 14vw; /* changing px to vw to make it relative to the screen width (it was breaking in narrow mobile devices) */
+  font-weight: 700;
+  margin: 0;
+}
+
 h2 {
-    margin: 0;
-    line-height: 1.2;
+  margin: 0;
+  line-height: 1.2;
 }
 
 h3 {
-    font-size: 25px;
-    font-weight: 700;
-    margin: 0;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0;
 }
 
 h4 {
-    font-size: 20px;
-    font-weight: 600;
-    padding-left: 16px;
-    margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 16px;
+  margin-bottom: 0;
 }
 
 p {
-    font-family: "IBM Plex Sans KR", sans-serif;
-    font-weight: 500;
-    line-height: 150%;
+  font-family: "IBM Plex Sans KR", sans-serif;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+@media (min-width: 1000px) {
+  p {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 550px) {
+  p {
+    font-size: 22px;
+  }
+
+  .koncepttext {
+    padding: 3.5rem;
+  }
 }
