@@ -66,7 +66,6 @@ h1 {
 h2 {
   margin: 0;
   line-height: 1.2;
-
 }
 
 h3 {
@@ -112,9 +111,7 @@ button p {
   width: 100%;
   height: auto;
   display: block;
- 
 }
-
 
 button {
   position: relative;
@@ -201,6 +198,16 @@ button:hover {
   align-items: flex-end;
   height: 100%;
   padding: 20px;
+}
+
+.zoom {
+  transition: transform 0.2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(
+    1.01
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 @keyframes color-change {
