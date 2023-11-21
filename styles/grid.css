@@ -72,7 +72,6 @@ header {
     display: block;
 }
 
-
 .balance {
     grid-area: balance;
     display: flex;
@@ -84,13 +83,14 @@ header {
     margin: 0 auto;
 }
 
-
 .title1 {
   grid-area: title1;
 }
+
 .text2 {
   grid-area: text2;
 }
+
 .readMore1 {
   grid-area: readMore1;
 }
@@ -135,8 +135,6 @@ footer {
   display: none;
 }
 
-
-
 @media (min-width: 1000px) {
 
   footer {
@@ -147,7 +145,6 @@ footer {
     grid-template-areas:
       "info newsletter1";
     padding-bottom: 40px;
-    
   }
 
   .infoDesktop {
@@ -168,9 +165,6 @@ footer {
   .mobile {
     display: none;
   }
-
- 
-
 }
 
 
