@@ -1,3 +1,14 @@
+.topBanner {
+  padding: 15px 10px 5px 10px;
+  text-align: center;
+  background-color: var(--grey-olive);
+}
+
+.topBanner p {
+  align-items: center;
+}
+
+
 .container {
   background-color: var(--baige);
 }
