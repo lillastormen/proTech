@@ -4,11 +4,6 @@
   background-color: var(--grey-olive);
 }
 
-.topBanner p {
-  align-items: center;
-}
-
-
 .container {
   background-color: var(--baige);
 }
@@ -128,26 +123,9 @@ footer {
   background-color: var(--white);
 }
 
-footer p,
-h4 {
-  color: var(--grey);
+footer p {
+  color: var(--navy);
 }
-
-a {
-  color: var(--grey);
-  padding: 5px;
-}
-
-a:link {
-  text-decoration: none;
-}
-a:visited {
-  text-decoration: none;
-}
-a:active {
-  text-decoration: none;
-}
-
 .info {
   padding: 60px 0px 0px 12px;
 }
