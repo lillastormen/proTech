@@ -12,7 +12,6 @@
   display: none;
 }
 
-
 .hero {
   height: 100vh;
   position: relative;
@@ -210,13 +209,13 @@ video {
     display: none;
   }
 
-  .burgerMenuDesktop {
+  /* .burgerMenuDesktop broke the navbar for some reason */
+
+  /* .burgerMenuDesktop {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 30px;
-    height: 30px;
-  }
+  } */
 
   .infoDesktop {
     padding-left: 120px;
@@ -226,6 +225,17 @@ video {
   .newsletter1 {
     padding-left: 70px;
   }
-  
-  
+
+  .menuDivMiddle,
+  .menuDivRight {
+    display: flex;
+  }
+
+  .menuDivMiddle > p {
+    padding: 0 4rem;
+  }
+
+  .menuDivRight > * {
+    padding: 0 2rem;
+  }
 }
