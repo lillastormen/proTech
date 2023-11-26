@@ -18,7 +18,7 @@
 }
 
 .heroImage {
-  background-image: url("../assets/hero_image.jpg");
+  background-image: url("../assets/Hero_mobil_.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -65,6 +65,7 @@
 
 .moodContainer {
   position: relative;
+  width: 50%;
 }
 
 button {
@@ -185,7 +186,7 @@ video {
   .moodInfo {
     display: block;
     position: absolute;
-    padding: 0 6rem 0 3rem;
+    padding: 3rem;
     font-size: 23px;
   }
   .moodInfo h2 {
@@ -237,5 +238,9 @@ video {
 
   .menuDivRight > * {
     padding: 0 2rem;
+  }
+
+  .heroImage {
+    background-image: url("../assets/Hero_desktop_.png");
   }
 }
