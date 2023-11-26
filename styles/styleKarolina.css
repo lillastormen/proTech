@@ -5,6 +5,7 @@
   position: relative;
   width: 100%;
   z-index: 3;
+  height: 6rem;
 }
 
 .container {
@@ -212,14 +213,6 @@ video {
   .burgerMenu {
     display: none;
   }
-
-  /* .burgerMenuDesktop broke the navbar for some reason */
-
-  /* .burgerMenuDesktop {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  } */
 
   .infoDesktop {
     padding-left: 120px;
