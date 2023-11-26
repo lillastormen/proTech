@@ -194,6 +194,7 @@ button:hover {
 
 .desktop nav {
   transition: transform 0.7s ease-in-out;
+  transform: translateY(80px);
 }
 
 @keyframes color-change {
