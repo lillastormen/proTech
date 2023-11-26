@@ -2,6 +2,9 @@
   padding: 15px 10px 5px 10px;
   text-align: center;
   background-color: var(--grey-olive);
+  position: relative;
+  width: 100%;
+  z-index: 3;
 }
 
 .container {
@@ -13,7 +16,7 @@
 }
 
 .hero {
-  height: 100vh;
+  height: 110vh;
   position: relative;
 }
 
