@@ -8,6 +8,10 @@
   background-color: var(--baige);
 }
 
+.desktop {
+  display: none;
+}
+
 .burgerMenuDesktop {
   display: none;
 }
@@ -205,8 +209,11 @@ video {
     padding-bottom: 20px;
   }
 
-  .burgerMenu {
-    display: none;
+
+  .desktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   /* .burgerMenuDesktop broke the navbar for some reason */
@@ -226,6 +233,16 @@ video {
     padding-left: 70px;
   }
 
+  /* flex magic to make the menu centered, I googled how to keep the middle item centered when side items have different widths. not entirely sure how but it works xd */
+  .logoDesktop,  
+  .menuDivRight {
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+
+  .menuDivRight {
+    justify-content: flex-end;
+  }
   .menuDivMiddle,
   .menuDivRight {
     display: flex;

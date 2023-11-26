@@ -23,8 +23,8 @@ header {
   width: 100%;
   position: fixed;
   z-index: 100;
-  justify-content: center;
-  display: flex;
+  
+
 }
 
 .hero {
