@@ -14,3 +14,11 @@ window.addEventListener("scroll", function () {
 
   lastScrollPosition = currentScrollPosition;
 });
+
+document.querySelector(".burgerMenu").addEventListener("click", function () {
+  document.querySelector(".mobileToggled").classList.remove("hideBurger");
+});
+
+document.querySelector(".close").addEventListener("click", function () {
+  document.querySelector(".mobileToggled").classList.add("hideBurger");
+});
