@@ -56,7 +56,7 @@ main {
   background-position: center center; /* centering it on the x and why axis */
 }
 
-.revolution h3 {
+.revolution h2 {
   position: relative;
   text-align: center;
   color: var(--white);
