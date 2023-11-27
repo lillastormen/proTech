@@ -15,6 +15,8 @@ window.addEventListener("scroll", function () {
   lastScrollPosition = currentScrollPosition;
 });
 
+// Mobile menu
+
 document.querySelector(".burgerMenu").addEventListener("click", function () {
   document.querySelector(".mobileToggled").classList.remove("hide");
 });
@@ -23,8 +25,14 @@ document.querySelector(".close").addEventListener("click", function () {
   document.querySelector(".mobileToggled").classList.add("hide");
 });
 
+// Desktop menu
+
 document.querySelectorAll(".menuButton").forEach(function (menuButton) {
   menuButton.addEventListener("click", function () {
     document.querySelector(".desktopToggled").classList.toggle("hide");
   });
+});
+
+document.querySelector(".logoDesktop").addEventListener("click", function () {
+  window.scrollTo({ top: 0, behavior: "smooth" });
 });
