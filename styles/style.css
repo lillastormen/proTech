@@ -52,7 +52,9 @@ main {
   height: 100vh;
   background-image: url("../assets/ProTech_SmartWatch_Technical_View_Scene.png");
   background-size: cover;
+  position: relative;
   background-position: center center;    /* centering it on the x and why axis */
+
 }
 
 .revolution h3 {
@@ -219,12 +221,17 @@ button:hover {
   justify-content: space-between;
 }
 
-.hideBurger {
+.hide {
+  display: none;
+}
+
+.desktopToggled.hide {
   display: none;
 }
 
 .burgerMenu:hover,
-.close:hover {
+.close:hover,
+.desktop nav > * > *:hover {
   cursor: pointer;
   opacity: 50%;
 }
@@ -233,6 +240,17 @@ button:hover {
   width: 50px;
   height: 50px;
   background-color: aqua;
+}
+
+.desktopToggled {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5rem 4rem 0rem 4rem;
+  position: absolute;
+  width: 100%;
+  height: 60vh;
+  background-color: var(--baige);
 }
 
 /* hero title animation  */

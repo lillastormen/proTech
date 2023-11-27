@@ -16,9 +16,15 @@ window.addEventListener("scroll", function () {
 });
 
 document.querySelector(".burgerMenu").addEventListener("click", function () {
-  document.querySelector(".mobileToggled").classList.remove("hideBurger");
+  document.querySelector(".mobileToggled").classList.remove("hide");
 });
 
 document.querySelector(".close").addEventListener("click", function () {
-  document.querySelector(".mobileToggled").classList.add("hideBurger");
+  document.querySelector(".mobileToggled").classList.add("hide");
+});
+
+document.querySelectorAll(".menuButton").forEach(function (menuButton) {
+  menuButton.addEventListener("click", function () {
+    document.querySelector(".desktopToggled").classList.toggle("hide");
+  });
 });
