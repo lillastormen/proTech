@@ -47,6 +47,9 @@ main {
   height: 100vh;
   background-image: url("../assets/ProTech_SmartWatch_Technical_View_Scene.png");
   background-size: cover;
+  background-position: center center;
+  position: relative;
+  
 }
 
 .revolution h2 {
