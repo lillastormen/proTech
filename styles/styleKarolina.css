@@ -57,7 +57,7 @@
 
 .offer {
   display: block;
-  width: 95vw; /*ask designers how wide they want these pictures to be*/
+  width: 60vw; /*ask designers how wide they want these pictures to be*/
 }
 
 .offerImage {
@@ -65,12 +65,12 @@
   width: 100%;
   height: 578px;
   margin: 2.5rem 0 2.5rem 0;
-  background-image: url("../assets/ProTechch_klocka_preview2.png"); /* TODO change this picture, size is a bit messed up */
-  background-size: 225%;
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   transition: all 0.3s ease-in-out;
 }
+
 
 .moodInfo {
   display: none;
