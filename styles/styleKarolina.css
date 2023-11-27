@@ -2,6 +2,9 @@
   padding: 15px 10px 5px 10px;
   text-align: center;
   background-color: var(--grey-olive);
+  position: relative;
+   width: 100%;
+   z-index: 3;
 }
 
 .container {
@@ -10,6 +13,11 @@
 
 .desktop {
   display: none;
+  width: 100%;
+}
+
+.mobile {
+  width: 100%;
 }
 
 .burgerMenuDesktop {
@@ -208,7 +216,6 @@ video {
     padding-top: 60px;
     padding-bottom: 20px;
   }
-
 
   .desktop {
     display: flex;
