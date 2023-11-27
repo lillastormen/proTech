@@ -266,4 +266,8 @@ video {
   .menuDivRight > * {
     padding: 0 2rem;
   }
+
+  .revolution h3 {
+    position: absolute;
+  }
 }
