@@ -51,7 +51,7 @@
 
 .offers {
   padding: 2.5rem;
-  background-color: var(--grey-olive);
+  background-color: var(--navy);
   gap: 40px;
 }
 
@@ -85,7 +85,7 @@ button {
 
 .pictures1 {
   padding-top: 90px;
-  background-color: var(--white);
+  background-color: var(--baige);
   gap: 10px;
 }
 
@@ -99,6 +99,9 @@ button {
   width: 80%;
 }
 
+.balance h4 {
+  color: var(--green);
+}
 .imageBottom {
   width: 100%;
   height: 100vh;
@@ -112,6 +115,10 @@ button {
   height: 70px;
 }
 
+.newsletter1 {
+  background-color: var(--baige);
+  padding-bottom: 40px;
+}
 .newsletterText1 {
   width: 340px;
 }
@@ -133,6 +140,7 @@ button {
   outline: none; /* Remove the default outline */ 
   padding-top: 15px;
   color: var(--grey);
+  background-color: var(--baige);
 }
 
 .newsletterSend {
@@ -254,8 +262,16 @@ video {
 
   .newsletter1 {
     padding-left: 70px;
+    background-color: var(--white);
   }
 
+  .input {
+    background-color: var(--white);
+  }
+
+  footer {
+    padding-top: 70px;
+  }
   /* flex magic to make the menu centered, I googled how to keep the middle item centered when side items have different widths. not entirely sure how but it works xd */
   .logoDesktop,
   .menuDivRight {
@@ -281,5 +297,6 @@ video {
 
   .revolution h4 {
     position: absolute;
+    color: var(--white);
   }
 }

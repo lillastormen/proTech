@@ -59,7 +59,7 @@ main {
 .revolution h4 {
   position: relative;
   text-align: center;
-  color: var(--white);
+  color: var(--green);
   padding: 30px;
 }
 
@@ -81,6 +81,10 @@ button p {
   padding-top: 0;
   max-width: 712px;
   margin: 0 auto;
+}
+
+.koncepttext h4 {
+  color: var(--green);
 }
 
 .koncepttext p {
