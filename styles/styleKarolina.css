@@ -145,7 +145,6 @@ button {
  }
 
 
-
 footer {
   background-color: var(--white);
   color: var(--grey);
@@ -157,7 +156,7 @@ footer {
 
 .socials {
   color: var(--baige);
-  padding: 30px 0px 15px 16px;
+  padding: 40px 0px 40px 20px;
 }
 
 /* 
@@ -251,7 +250,6 @@ video {
 
   .infoDesktop {
     padding-left: 120px;
-
   }
 
   .newsletter1 {
