@@ -12,6 +12,7 @@
     "offers"
     "pictures1"
     "balance"
+    "imageBottom"
     "footer";
   max-width: var(--page-width);
   width: 100%;
@@ -83,16 +84,13 @@ header {
   margin: 0 auto;
 }
 
-.title1 {
-  grid-area: title1;
-}
-
-.text2 {
-  grid-area: text2;
-}
-
-.readMore1 {
-  grid-area: readMore1;
+.imageBottom {
+  grid-area: imageBottom;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem 0;
 }
 
 footer {
