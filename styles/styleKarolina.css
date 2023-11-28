@@ -71,7 +71,6 @@
   transition: all 0.3s ease-in-out;
 }
 
-
 .moodInfo {
   display: none;
 }
@@ -103,6 +102,11 @@ button {
 .balance h4 {
   color: var(--green);
 }
+
+.balance p {
+  padding-bottom: 40px;
+}
+
 .imageBottom {
   width: 100%;
   height: 100vh;

@@ -121,6 +121,10 @@ button {
   max-width: 162px;
 }
 
+.koncepttext p {
+  padding-bottom: 40px;
+}
+
 .colorChange {
   animation: color-change 5s infinite;
 }
