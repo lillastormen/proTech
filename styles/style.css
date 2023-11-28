@@ -94,16 +94,16 @@ button p {
 .mood {
   grid-area: mood;
   display: flex;
-  justify-content: center;
   padding-top: 60px;
-  gap: 10px;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
 }
 
 .moodImage01,
 .moodImage02 {
-  max-width: 100%;
+  width: 100%;
   height: auto;
-  display: block;
 }
 
 button {
