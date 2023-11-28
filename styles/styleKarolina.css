@@ -49,6 +49,17 @@
   width: 100%;
 }
 
+video {
+  width: 100%;
+  height: 100%;
+}
+
+.animation h4 {
+  position: relative;
+  text-align: center;
+  color: var(--green);
+  padding: 30px 0 30px 0;
+}
 
 .offers {
   padding: 2.5rem;
@@ -322,6 +333,10 @@ video {
   .revolution h4 {
     position: absolute;
     color: var(--white);
+  }
+
+  .animation h4 {
+    padding: 45px 0 45px 0;
   }
 
 }

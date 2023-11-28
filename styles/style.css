@@ -60,7 +60,7 @@ main {
   position: relative;
   text-align: center;
   color: var(--green);
-  padding: 30px;
+  padding-top: 30px;
 }
 
 .herospan {
@@ -270,6 +270,7 @@ button:hover {
   background-color: var(--baige);
 }
 
+
 .desktopToggled h3 {
   font-size: 25px;
   margin-bottom: 2rem;
@@ -294,6 +295,7 @@ button:hover {
 .desktopToggled .close {
   margin-top: 40px;
 }
+
 
 /* hero title animation  */
 
