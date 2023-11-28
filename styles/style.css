@@ -169,8 +169,6 @@ button {
 
 /* image-hover animation */
 
-
-
 /* button animation */
 
 button::before {
@@ -286,6 +284,11 @@ button:hover {
   margin-top: 40px;
 }
 
+.mobile nav {
+  transition: transform 0.7s ease-in-out;
+  transform: translateY(80px);
+}
+
 /* hero title animation  */
 
 @keyframes color-change {
@@ -304,7 +307,6 @@ button:hover {
 }
 
 @media (min-width: 1000px) {
-
   nav {
     padding: 3rem;
   }
