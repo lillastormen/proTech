@@ -68,7 +68,7 @@ header {
 
 .pic3,
 .pic4 {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   display: block;
 }
