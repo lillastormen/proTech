@@ -93,6 +93,7 @@ button {
 
 .pictureContainer {
   position: relative;
+  width: 100%;
 }
 
 .pictureInfo {
