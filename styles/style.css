@@ -315,6 +315,10 @@ button:hover {
 }
 
 @media (min-width: 1000px) {
+
+  nav {
+    padding: 3rem;
+  }
   .plusIcon {
     width: 25px;
     height: 25px;
