@@ -95,6 +95,10 @@ button {
   width: 100%;
 }
 
+.pictureContainer img {
+  width: 100%;
+}
+
 .pictureInfo {
   display: none;
   max-width: 550px;
