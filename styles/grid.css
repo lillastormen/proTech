@@ -9,6 +9,7 @@
     "mood"
     "concept"
     "revolution"
+    "animation"
     "offers"
     "pictures1"
     "balance"
@@ -48,6 +49,10 @@ header {
 
 .revolution {
   grid-area: revolution;
+}
+
+.animation {
+  grid-area: animation;
 }
 
 .offers {

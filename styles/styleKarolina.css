@@ -49,6 +49,7 @@
   width: 100%;
 }
 
+
 .offers {
   padding: 2.5rem;
   background-color: var(--navy);
@@ -276,7 +277,7 @@ video {
   .bottomPicture {
     padding-top: 70px;
   }
-    
+
   .newsletter1 {
     padding-left: 70px;
     background-color: var(--white);
