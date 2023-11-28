@@ -33,6 +33,8 @@ document.querySelectorAll(".menuButton").forEach(function (menuButton) {
   });
 });
 
+// Add hide when clicking outside the desktopToggled
+
 document.addEventListener("click", function (event) {
   const desktopToggled = document.querySelector(".desktopToggled");
   const targetElement = event.target;
