@@ -94,6 +94,7 @@ button p {
 .mood {
   grid-area: mood;
   display: flex;
+  justify-content: center;
   padding-top: 60px;
   gap: 10px;
 }
