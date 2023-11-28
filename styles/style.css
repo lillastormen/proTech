@@ -16,7 +16,7 @@ nav {
   align-items: center;
   max-width: var(--page-width);
   width: 100%;
-  padding: 2.5rem 3rem;
+  padding: 2.5rem 1rem;
 }
 
 main {
