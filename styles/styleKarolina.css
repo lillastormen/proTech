@@ -26,9 +26,13 @@
 }
 
 .hero {
-  height: 125vh;
+  height: 100vh;
   position: relative;
 }
+
+.hero h3 {
+  padding-bottom: 0;
+} 
 
 .heroImage {
   background-image: url("../assets/Hero_mobil_.png");
