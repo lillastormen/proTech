@@ -213,6 +213,10 @@ video {
     padding-top: 90px;
   }
 
+  .balance p {
+    padding-bottom: 70px;
+  }
+
   .koncepttext {
     padding-top: 60px;
   }
@@ -269,6 +273,9 @@ video {
     padding-left: 120px;
   }
 
+  .bottomPicture {
+      padding-bottom: 70px;
+  }
   .newsletter1 {
     padding-left: 70px;
     background-color: var(--white);
@@ -308,4 +315,5 @@ video {
     position: absolute;
     color: var(--white);
   }
+
 }

@@ -125,6 +125,7 @@ button {
   padding-bottom: 40px;
 }
 
+
 .colorChange {
   animation: color-change 5s infinite;
 }
@@ -291,4 +292,9 @@ button:hover {
     width: 25px;
     height: 25px;
   }
+
+  .koncepttext p {
+    padding-bottom: 70px;
+  }
+  
 }
