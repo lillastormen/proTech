@@ -4,7 +4,8 @@
 
 
 .lightFont {
-  color: white;
+  color: #F0ECE3;
+
   letter-spacing: 0.36px;
 }
 
@@ -30,7 +31,7 @@ h3 {
   font-weight: 700;
   margin: 0;
   line-height: 41px;
-  padding-top: 30px;
+  padding: 50px 0 20px 0;
 }
 
 h4 {

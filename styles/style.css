@@ -43,7 +43,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2.5rem 0;
+  padding: 3rem 0;
 }
 
 /* moving the image from revolution section to its div */
@@ -310,27 +310,3 @@ button:hover {
   }
 }
 
-@media (min-width: 1000px) {
-
-  nav {
-    padding: 3rem;
-  }
-  .plusIcon {
-    width: 25px;
-    height: 25px;
-  }
-
-  .koncepttext p {
-    padding-bottom: 70px;
-  }
-
-  .revolution {
-    padding-top: 70px;
-  }
-
-  .zoom:hover {
-  background-size: 102%;
-  cursor: pointer;
-  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-}

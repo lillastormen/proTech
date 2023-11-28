@@ -1,0 +1,170 @@
+@media (min-width: 1000px) {
+    .herospan {
+      position: absolute;
+      bottom: 5%;
+      width: 100%;
+    }
+  
+    .hero {
+      height: 100vh;
+      position: relative;
+    }
+
+    nav {
+        padding: 3rem;
+    }
+    
+    .plusIcon {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .koncepttext p {
+        padding-bottom: 70px;
+      }
+    
+    .revolution {
+        padding-top: 70px;
+    }
+    
+    .zoom:hover {
+      background-size: 102%;
+      cursor: pointer;
+      /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+  
+    .pic3 {
+      padding: 0px 5px 0px 10px;
+    }
+  
+    .pic4 {
+      padding: 0px 10px 0px 5px;
+    }
+  
+    .moodImage01 {
+      padding: 0px 5px 0px 10px;
+    }
+  
+    .moodImage02 {
+      padding: 0px 10px 0px 5px;
+    }
+  
+    h1 {
+      font-size: 100px;
+    }
+  
+    .balance {
+      padding-top: 90px;
+    }
+  
+    .balance p {
+      padding-bottom: 70px;
+    }
+  
+    .koncepttext {
+      padding-top: 60px;
+    }
+  
+    .offers {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  
+    .offer {
+      width: 460px;
+    }
+  
+    .moodInfo {
+      display: block;
+      position: absolute;
+      padding: 0 6rem 0 3rem;
+      font-size: 23px;
+      max-width: 700px;
+      width: 80%;
+    }
+  
+    .pictureInfo {
+      display: block;
+      position: absolute;
+      padding: 0 6rem 0 3rem;
+      font-size: 23px;
+    }
+  
+    .pictureInfo h2 {
+      padding-top: 60px;
+      padding-bottom: 20px;
+    }
+  
+    .desktop {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .heroImage {
+      background-image: url("../assets/Hero_desktop_.png");
+    }
+  
+    /* .burgerMenuDesktop broke the navbar for some reason */
+  
+    /* .burgerMenuDesktop {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    } */
+  
+    .infoDesktop {
+      padding-left: 120px;
+    }
+  
+    .bottomPicture {
+      padding-top: 70px;
+    }
+  
+    .newsletter1 {
+      padding-left: 70px;
+      background-color: var(--white);
+    }
+  
+    .input {
+      background-color: var(--white);
+    }
+  
+    footer {
+      padding-top: 70px;
+    }
+    /* flex magic to make the menu centered, I googled how to keep the middle item centered when side items have different widths. not entirely sure how but it works xd */
+    .logoDesktop,
+    .menuDivRight {
+      flex-grow: 1;
+      flex-basis: 0;
+    }
+  
+    .menuDivRight {
+      justify-content: flex-end;
+    }
+    .menuDivMiddle,
+    .menuDivRight {
+      display: flex;
+    }
+  
+    .menuDivMiddle > p {
+      padding: 0 4rem;
+    }
+  
+    .menuDivRight > * {
+      padding: 0 1.5rem;
+    }
+  
+    .revolution h4 {
+      position: absolute;
+      color: var(--white);
+    }
+  
+    .mottoDesktop {
+      display: block;
+    }
+  
+    .mottoMobile {
+      display: none;
+    }
+  }
+  
