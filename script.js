@@ -29,11 +29,22 @@ document.querySelector(".close").addEventListener("click", function () {
 
 document.querySelectorAll(".menuButton").forEach(function (menuButton) {
   menuButton.addEventListener("click", function () {
-    document.querySelector(".desktopToggled").classList.toggle("hide");
+    document.querySelector(".desktopToggled").classList.remove("hide");
   });
 });
 
-// New code to hide the .close element in desktopCenter when .desktopToggled is clicked
+document.addEventListener("click", function (event) {
+  const desktopToggled = document.querySelector(".desktopToggled");
+  const targetElement = event.target;
+
+  if (
+    !desktopToggled.contains(targetElement) &&
+    !targetElement.classList.contains("menuButton")
+  ) {
+    desktopToggled.classList.add("hide");
+  }
+});
+
 document
   .querySelector(".desktopCenter .close")
   .addEventListener("click", function () {
