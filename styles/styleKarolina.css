@@ -78,6 +78,7 @@
 
 .moodContainer {
   position: relative;
+  width: 100%;
 }
 
 button {
