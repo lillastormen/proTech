@@ -8,7 +8,7 @@
 .darkFont {
   color: black;
 }
-
+/* MY NEWSET HEADACHE switch h4 with h3 abd create h6 witch you switch with h5 */
 h1 {
   font-size: 14vw; /* changing px to vw to make it relative to the screen width (it was breaking in narrow mobile devices) */
   font-weight: 700;
