@@ -271,6 +271,11 @@ button:hover {
   background-color: var(--baige);
 }
 
+.moodContainer img {
+  width: 100%;
+  height: 100%;
+}
+
 /* hero title animation  */
 
 @keyframes color-change {
