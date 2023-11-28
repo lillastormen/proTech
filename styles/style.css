@@ -16,7 +16,7 @@ nav {
   align-items: center;
   max-width: var(--page-width);
   width: 100%;
-  padding: 2.5rem 3rem;
+  padding: 2.5rem 1rem;
 }
 
 main {
@@ -169,11 +169,7 @@ button {
 
 /* image-hover animation */
 
-.zoom:hover {
-  background-size: 102%;
-  cursor: pointer;
-  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
+
 
 /* button animation */
 
@@ -308,6 +304,10 @@ button:hover {
 }
 
 @media (min-width: 1000px) {
+
+  nav {
+    padding: 3rem;
+  }
   .plusIcon {
     width: 25px;
     height: 25px;
@@ -319,5 +319,11 @@ button:hover {
 
   .revolution {
     padding-top: 70px;
+  }
+
+  .zoom:hover {
+    background-size: 102%;
+    cursor: pointer;
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
 }
