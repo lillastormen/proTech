@@ -50,6 +50,13 @@
 }
 
 
+.animation h4 {
+  position: relative;
+  text-align: center;
+  color: var(--green);
+  padding: 30px;
+}
+
 .offers {
   padding: 2.5rem;
   background-color: var(--navy);
