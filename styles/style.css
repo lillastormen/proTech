@@ -126,7 +126,6 @@ button {
   padding-bottom: 40px;
 }
 
-
 .colorChange {
   animation: color-change 5s infinite;
 }
@@ -262,18 +261,38 @@ button:hover {
 
 .desktopToggled {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  padding: 5rem 4rem 0rem 4rem;
+  padding: 12rem 4rem 0rem 4rem;
   position: absolute;
   width: 100%;
-  height: 60vh;
+  height: 75vh;
   background-color: var(--baige);
+}
+
+.desktopToggled h3 {
+  font-size: 25px;
+  margin-bottom: 2rem;
+}
+
+.desktopToggled p {
+  font-size: 18px;
+  margin-bottom: 4rem;
 }
 
 .moodContainer img {
   width: 100%;
   height: 100%;
+}
+
+.desktopCenter {
+  display: flex;
+  justify-content: space-between;
+  width: 856px;
+}
+
+.desktopToggled .close {
+  margin-top: 40px;
 }
 
 /* hero title animation  */
@@ -306,5 +325,4 @@ button:hover {
   .revolution {
     padding-top: 70px;
   }
-  
 }
