@@ -120,7 +120,7 @@
     }
   
     .newsletter1 {
-      padding-left: 70px;
+      padding-left: 140px;
       background-color: var(--white);
     }
   
@@ -129,7 +129,7 @@
     }
   
     footer {
-      padding-top: 70px;
+    padding-top: 70px;
     }
     /* flex magic to make the menu centered, I googled how to keep the middle item centered when side items have different widths. not entirely sure how but it works xd */
     .logoDesktop,
