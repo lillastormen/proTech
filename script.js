@@ -33,6 +33,13 @@ document.querySelectorAll(".menuButton").forEach(function (menuButton) {
   });
 });
 
+// New code to hide the .close element in desktopCenter when .desktopToggled is clicked
+document
+  .querySelector(".desktopCenter .close")
+  .addEventListener("click", function () {
+    document.querySelector(".desktopToggled").classList.add("hide");
+  });
+
 document.querySelector(".logoDesktop").addEventListener("click", function () {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
