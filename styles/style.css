@@ -87,9 +87,6 @@ button p {
   color: var(--green);
 }
 
-.koncepttext p {
-  max-width: 420px;
-}
 
 .mood {
   grid-area: mood;

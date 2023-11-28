@@ -4,13 +4,16 @@
 
 
 .lightFont {
-  color: #F0ECE3;
-
+  color: var(--light);
   letter-spacing: 0.36px;
 }
 
+.navyFont {
+  color: var(--navy);
+}
+
 .darkFont {
-  color: black;
+  color: var(--black);
 }
 
 h1 {
