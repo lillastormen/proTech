@@ -166,6 +166,10 @@
   
     .mottoMobile {
       display: none;
-    }  
+    }
+    
+    .revolution {
+      padding: 3rem 0;
+    }
   }
   
