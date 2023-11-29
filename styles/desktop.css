@@ -18,7 +18,15 @@
         width: 25px;
         height: 25px;
     }
+
+    .plusLine01 {
+      height: 4px;
+    }
     
+    .plusLine02 {
+      width: 4px;
+    }
+
     .koncepttext p {
         padding-bottom: 70px;
       }

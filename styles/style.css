@@ -141,7 +141,8 @@ button {
 
 /* plus-icon animation */
 
-.plusIcon:hover {
+.plusIcon:hover,
+.plusIcon1:hover {
   transform: rotate(90deg);
   cursor: pointer;
   opacity: 50%;
@@ -153,13 +154,18 @@ button {
   background-color: var(--white);
 }
 
+.navyFont .plusLine01,
+.navyFont .plusLine02 {
+  background-color: var(--navy);
+}
+
 .plusLine01 {
   width: 100%;
-  height: 4px;
+  height: 2px;
 }
 
 .plusLine02 {
-  width: 4px;
+  width: 2px;
   height: 100%;
 }
 

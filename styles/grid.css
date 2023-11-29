@@ -101,7 +101,8 @@ footer {
   grid-template-areas:
     "newsletter1"
     "info"
-    "socials";
+    "socials"
+    "contactInfo";
 }
 
 .newsletterTitlet1 {
@@ -127,6 +128,10 @@ footer {
   grid-area: socials;
   display: flex;
   gap: 45px;
+}
+
+.contactInfo {
+  grid-area: contactInfo;
 }
 
 .infoDesktop {
