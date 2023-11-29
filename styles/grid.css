@@ -143,8 +143,10 @@ footer {
     display: grid;
     grid-area: footer;
     grid-template-columns: 3fr 2fr;
-    grid-template-rows: auto;
-    grid-template-areas: "info newsletter1";
+    grid-template-rows: 2fr 1fr;
+    grid-template-areas: 
+    "info newsletter1"
+    "contactInfo contactInfo";
     padding-bottom: 40px;
     gap: 30px;
   }
@@ -175,4 +177,5 @@ footer {
   .desktop nav {
     transition: transform 0.7s ease-in-out;
   }
+
 }
