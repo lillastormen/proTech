@@ -99,6 +99,7 @@
       flex-direction: column;
       justify-content: space-between;
     }
+    
     .heroImage {
       background-image: url("../assets/Hero_desktop_.png");
     }
@@ -165,6 +166,6 @@
   
     .mottoMobile {
       display: none;
-    }
+    }  
   }
   

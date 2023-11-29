@@ -87,7 +87,6 @@ button p {
   color: var(--green);
 }
 
-
 .mood {
   grid-area: mood;
   display: flex;
