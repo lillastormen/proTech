@@ -195,7 +195,7 @@ button:hover {
 
 /* makes the navbar hide on scroll  */
 
-.desktop nav {
+.desktop nav .mobile nav {
   transition: transform 0.7s ease-in-out;
   transform: translateY(80px);
 }
