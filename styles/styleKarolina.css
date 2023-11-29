@@ -26,9 +26,13 @@
 }
 
 .hero {
-  height: 125vh;
+  height: 100vh;
   position: relative;
 }
+
+.hero h3 {
+  padding-bottom: 0;
+} 
 
 .heroImage {
   background-image: url("../assets/Hero_mobil_.png");
@@ -55,11 +59,16 @@ video {
   height: 100%;
 }
 
-.animation h4 {
+.mottoDesktop,
+.mottoMobile {
   position: relative;
   text-align: center;
   color: var(--green);
-  padding: 30px 0 30px 0;
+  padding: 45px 0 60px 0;
+}
+
+.mottoDesktop {
+  display: none;
 }
 
 .offers {
@@ -70,7 +79,7 @@ video {
 
 .offer {
   display: block;
-  width: 70vw; /*ask designers how wide they want these pictures to be*/
+  width: 65vw; /*ask designers how wide they want these pictures to be*/
 }
 
 .offerImage {
@@ -82,6 +91,7 @@ video {
   background-position: center center;
   background-repeat: no-repeat;
   transition: all 0.3s ease-in-out;
+  background-color: var(--baige);
 }
 
 .moodInfo {
@@ -114,7 +124,7 @@ button {
 
 .pictureInfo {
   display: none;
-  max-width: 550px;
+  max-width: 700px;
   width: 80%;
 }
 
@@ -129,7 +139,7 @@ button {
 .imageBottom {
   width: 100%;
   height: 100vh;
-  background-image: url("../assets/PursePreview.png");
+  background-image: url("../assets/Purse_.png");
   background-size: cover;
   position: relative;
   background-position: center center;
@@ -196,147 +206,3 @@ video {
   padding-bottom: 60px;
 } */
 
-@media (min-width: 1000px) {
-  .herospan {
-    position: absolute;
-    bottom: 5%;
-    width: 100%;
-  }
-
-  .hero {
-    height: 100vh;
-    position: relative;
-  }
-
-  .pic3 {
-    padding: 0px 5px 0px 10px;
-  }
-
-  .pic4 {
-    padding: 0px 10px 0px 5px;
-  }
-
-  .moodImage01 {
-    padding: 0px 5px 0px 10px;
-  }
-
-  .moodImage02 {
-    padding: 0px 10px 0px 5px;
-  }
-
-  h1 {
-    font-size: 100px;
-  }
-
-  .balance {
-    padding-top: 90px;
-  }
-
-  .balance p {
-    padding-bottom: 70px;
-  }
-
-  .koncepttext {
-    padding-top: 60px;
-  }
-
-  .offers {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .offer {
-    width: 460px;
-  }
-
-  .moodInfo {
-    display: block;
-    position: absolute;
-    padding: 0 6rem 0 3rem;
-    font-size: 23px;
-  }
-  .moodInfo h2 {
-    padding-top: 60px;
-    padding-bottom: 20px;
-  }
-
-  .pictureInfo {
-    display: block;
-    position: absolute;
-    padding: 0 6rem 0 3rem;
-    font-size: 23px;
-  }
-
-  .pictureInfo h2 {
-    padding-top: 60px;
-    padding-bottom: 20px;
-  }
-
-  .desktop {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .heroImage {
-    background-image: url("../assets/Hero_desktop_.png");
-  }
-
-  /* .burgerMenuDesktop broke the navbar for some reason */
-
-  /* .burgerMenuDesktop {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  } */
-
-  .infoDesktop {
-    padding-left: 120px;
-  }
-
-  .bottomPicture {
-    padding-top: 70px;
-  }
-
-  .newsletter1 {
-    padding-left: 70px;
-    background-color: var(--white);
-  }
-
-  .input {
-    background-color: var(--white);
-  }
-
-  footer {
-    padding-top: 70px;
-  }
-  /* flex magic to make the menu centered, I googled how to keep the middle item centered when side items have different widths. not entirely sure how but it works xd */
-  .logoDesktop,
-  .menuDivRight {
-    flex-grow: 1;
-    flex-basis: 0;
-  }
-
-  .menuDivRight {
-    justify-content: flex-end;
-  }
-  .menuDivMiddle,
-  .menuDivRight {
-    display: flex;
-  }
-
-  .menuDivMiddle > p {
-    padding: 0 4rem;
-  }
-
-  .menuDivRight > * {
-    padding: 0 1.5rem;
-  }
-
-  .revolution h4 {
-    position: absolute;
-    color: var(--white);
-  }
-
-  .animation h4 {
-    padding: 45px 0 45px 0;
-  }
-}

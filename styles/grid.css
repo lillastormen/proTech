@@ -137,10 +137,11 @@ footer {
   footer {
     display: grid;
     grid-area: footer;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 2fr;
     grid-template-rows: auto;
     grid-template-areas: "info newsletter1";
     padding-bottom: 40px;
+    gap: 30px;
   }
 
   .infoDesktop {

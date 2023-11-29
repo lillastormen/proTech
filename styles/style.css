@@ -16,7 +16,7 @@ nav {
   align-items: center;
   max-width: var(--page-width);
   width: 100%;
-  padding: 2.5rem 1rem;
+  padding: 2rem 1rem;
 }
 
 main {
@@ -43,7 +43,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2.5rem 0;
+  padding: 3rem 0;
 }
 
 /* moving the image from revolution section to its div */
@@ -67,6 +67,10 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+button p {
+  margin: 0;
 }
 
 .koncepttext {
@@ -100,17 +104,17 @@ main {
 
 button {
   position: relative;
-  overflow: hidden;
-  padding: 8px 27px 8px 27px;
-  color: rgb(0, 0, 0);
-  border-radius: 10px;
-  border: 2px solid rgba(52, 54, 67, 1);
-  z-index: 1;
-  transition: color 0.6s cubic-bezier(0.64, 0, 0.4, 1); /* Add this line */
-  background-color: var(--light-pink);
-  margin: 0;
-  font-weight: 700;
-  font-size: 16px;
+   overflow: hidden;
+   padding: 8px 27px 8px 27px;
+   color: rgb(0, 0, 0);
+   border-radius: 10px;
+   border: 2px solid rgba(52, 54, 67, 1);
+   z-index: 1;
+   transition: color 0.6s cubic-bezier(0.64, 0, 0.4, 1); /* Add this line */
+   background-color: var(--light-pink);
+   margin: 0;
+   font-weight: 700;
+   font-size: 16px;
 }
 
 .koncepttext span {
@@ -168,6 +172,8 @@ button {
 }
 
 /* image-hover animation */
+
+
 
 /* button animation */
 
@@ -260,6 +266,7 @@ button:hover {
   background-color: var(--baige);
 }
 
+
 .desktopToggled h3 {
   font-size: 25px;
   margin-bottom: 2rem;
@@ -285,10 +292,6 @@ button:hover {
   margin-top: 40px;
 }
 
-.mobile nav {
-  transition: transform 0.7s ease-in-out;
-  transform: translateY(80px);
-}
 
 /* hero title animation  */
 
@@ -307,26 +310,3 @@ button:hover {
   }
 }
 
-@media (min-width: 1000px) {
-  nav {
-    padding: 3rem;
-  }
-  .plusIcon {
-    width: 25px;
-    height: 25px;
-  }
-
-  .koncepttext p {
-    padding-bottom: 70px;
-  }
-
-  .revolution {
-    padding-top: 70px;
-  }
-
-  .zoom:hover {
-    background-size: 102%;
-    cursor: pointer;
-    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  }
-}

@@ -1,14 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Schoolbell&display=swap");
 
+@import url("@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&family=Inter:wght@200&family=Poppins:wght@100;800&family=Rajdhani:wght@300&display=swap');");
+
+
 .lightFont {
-  color: white;
-  letter-spacing: 0.36px;
+  color: var(--light);
+}
+
+.navyFont {
+  color: var(--navy);
 }
 
 .darkFont {
-  color: black;
+  color: var(--black);
 }
-/* MY NEWSET HEADACHE switch h4 with h3 abd create h6 witch you switch with h5 */
+
 h1 {
   font-size: 14vw; /* changing px to vw to make it relative to the screen width (it was breaking in narrow mobile devices) */
   font-weight: 700;
@@ -22,11 +28,12 @@ margin: 0;
 }
 
 h3 {
+  font-family: "IBM Plex Sans KR", sans-serif;
   font-size: 39px;
   font-weight: 700;
   margin: 0;
   line-height: 41px;
-  padding-top: 30px;
+  padding: 50px 0 20px 0;
 }
 
 h4 {
@@ -36,6 +43,7 @@ h4 {
 }
 
 h5 {
+  font-family: "IBM Plex Sans KR", sans-serif;
   font-size: 18px;
   font-weight: 600;
   padding-left: 12px;
@@ -48,15 +56,21 @@ p {
   font-family: "IBM Plex Sans KR", sans-serif;
   font-weight: 600;
   line-height: 150%;
+  
 }
 
 @media (min-width: 1000px) {
+  p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
   h4 {
     font-size: 49px;
     line-height: 48px;
     padding-bottom: 20px;
   }
-
+  
   .offerWrapper h5 {
     font-size: 35px;
     
